@@ -7,6 +7,7 @@ import protectedRoutes from './routes/protected.js';
 import studentRoutes from './routes/students.js'
 import paymentRoutes from './routes/payments.js';
 import eventRoutes from './routes/events.js';
+import dashboardRoutes from './routes/dashboard.js';
 
 dotenv.config();
 connectDB();
@@ -29,6 +30,7 @@ app.use('/api/protected', protectedRoutes);
 app.use('/api/students', studentRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/api/events', eventRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 // Ruta de prueba
 app.get('/api/test', (req,res)=>{
