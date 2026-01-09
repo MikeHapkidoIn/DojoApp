@@ -35,7 +35,7 @@ const eventSchema = new mongoose.Schema(
     
     martialArt: {
       type: String,
-      required: [true, 'La disciplina marcial es obligatoria']
+      required: [true, 'La disciplina marcial es obligatoria'],
       enum: ['all', 'taekwondo', 'hapkido', 'muay-thai'], 
       default: 'all'
     },
