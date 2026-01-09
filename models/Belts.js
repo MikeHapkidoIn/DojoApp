@@ -38,7 +38,7 @@ const beltSchema = new mongoose.Schema(
     
     danLevel: {
       type: Number,
-      default: 0 // 0 = no es dan
+      default: 0 
     }
   },
   {

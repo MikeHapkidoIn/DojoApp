@@ -12,9 +12,9 @@ import { protect, admin } from '../middleware/auth.js';
 
 const router = express.Router();
 
-// ======================
-// 👑 RUTAS PARA ADMINISTRADORES
-// ======================
+
+//  RUTAS PARA ADMINISTRADORES
+
 
 /**
  * POST /api/payments

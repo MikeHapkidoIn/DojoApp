@@ -13,9 +13,9 @@ import { protect, admin } from '../middleware/auth.js';
 
 const router = express.Router();
 
-// ======================
-// 📅 RUTAS PARA EVENTOS
-// ======================
+
+// RUTAS PARA EVENTOS
+
 
 /**
  * GET /api/events
@@ -43,9 +43,9 @@ router.get('/today', protect, getTodayEvents);
  */
 router.get('/:id', protect, getEventById);
 
-// ======================
-// 👑 RUTAS SOLO PARA ADMINISTRADORES
-// ======================
+
+// RUTAS SOLO PARA ADMINISTRADORES
+
 
 /**
  * POST /api/events

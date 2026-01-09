@@ -4,16 +4,16 @@ const paymentSchema = new mongoose.Schema(
   {
    
     student: {
-      type: mongoose.Schema.Types.ObjectId,  // Tipo ObjectId de MongoDB
-      ref: 'Student',  // Esto crea una relación con el modelo Student
-      required: [true, 'El estudiante es obligatorio']  // Es obligatorio y muestra este mensaje si falta
+      type: mongoose.Schema.Types.ObjectId, 
+      ref: 'Student',  
+      required: [true, 'El estudiante es obligatorio']  
     },
 
     
     month: {
       type: String,
       required: [true, 'El mes es obligatorio'],
-      // match valida que el string tenga formato YYYY-MM usando una expresión regular
+      
       match: [/^\d{4}-\d{2}$/, 'Formato de mes inválido (YYYY-MM)']
     },
 
@@ -27,19 +27,19 @@ const paymentSchema = new mongoose.Schema(
     amount: {
       type: Number,
       required: [true, 'El monto es obligatorio'],
-      min: [0, 'El monto no puede ser negativo']  // Validación: número mínimo 0
+      min: [0, 'El monto no puede ser negativo']  
     },
 
     
     paid: {
       type: Boolean,
-      default: false  // Valor por defecto: false (no pagado)
+      default: false 
     },
 
     
     paymentDate: {
       type: Date,
-      default: null  // Null hasta que se pague
+      default: null  
     },
 
     

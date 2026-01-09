@@ -1,0 +1,2490 @@
+.:
+total 477
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  3 14:57 ./
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 17 16:19 ../
+-rw-r--r-- 1 Cris & Mike 197121    442 nov. 21 12:56 .env
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 21 14:08 .github/
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 13:36 config/
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:47 controllers/
+-rw-r--r-- 1 Cris & Mike 197121 347954 dic.  3 14:56 estructura.txt
+-rw-r--r-- 1 Cris & Mike 197121      0 dic.  3 14:57 estructura_detallada.txt
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:38 middleware/
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:46 models/
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:24 node_modules/
+-rw-r--r-- 1 Cris & Mike 197121    660 dic.  1 18:23 package.json
+-rw-r--r-- 1 Cris & Mike 197121  67691 dic.  1 18:24 package-lock.json
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:54 routes/
+-rw-r--r-- 1 Cris & Mike 197121   1706 dic.  1 19:01 server.js
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 21 13:03 Utils/
+
+./.github:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 21 14:08 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  3 14:57 ../
+-rw-r--r-- 1 Cris & Mike 197121 3028 dic.  1 18:47 copilot-instructions.md
+
+./config:
+total 21
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 13:36 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  3 14:57 ../
+-rw-r--r-- 1 Cris & Mike 197121 1220 dic.  1 16:28 beltsData.js
+-rw-r--r-- 1 Cris & Mike 197121  442 dic.  1 18:25 cloudinary.js
+-rw-r--r-- 1 Cris & Mike 197121 1750 dic.  1 14:43 database.js
+-rw-r--r-- 1 Cris & Mike 197121 1254 dic.  1 13:38 federationsData.js
+
+./controllers:
+total 88
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:47 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  3 14:57 ../
+-rw-r--r-- 1 Cris & Mike 197121  5422 dic.  1 13:53 authController.js
+-rw-r--r-- 1 Cris & Mike 197121  1809 dic.  1 13:40 beltsController.js
+-rw-r--r-- 1 Cris & Mike 197121  8332 dic.  1 18:56 dashboardController.js
+-rw-r--r-- 1 Cris & Mike 197121 11809 dic.  1 18:08 eventController.js
+-rw-r--r-- 1 Cris & Mike 197121  4697 dic.  1 13:38 federationController.js
+-rw-r--r-- 1 Cris & Mike 197121 12542 dic.  1 16:44 paymentController.js
+-rw-r--r-- 1 Cris & Mike 197121  9337 dic.  1 16:27 studentController.js
+-rw-r--r-- 1 Cris & Mike 197121  5453 dic.  1 18:20 uploadController.js
+
+./middleware:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:38 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  3 14:57 ../
+-rw-r--r-- 1 Cris & Mike 197121 1579 nov. 21 14:27 auth.js
+-rw-r--r-- 1 Cris & Mike 197121 3861 dic.  1 18:25 upload.js
+
+./models:
+total 44
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:46 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  3 14:57 ../
+-rw-r--r-- 1 Cris & Mike 197121  994 dic.  1 13:41 Belts.js
+-rw-r--r-- 1 Cris & Mike 197121 6889 dic.  1 18:45 DashboardModel.js
+-rw-r--r-- 1 Cris & Mike 197121 3028 nov. 21 16:43 Event.js
+-rw-r--r-- 1 Cris & Mike 197121 2147 dic.  1 13:39 federation.js
+-rw-r--r-- 1 Cris & Mike 197121 1828 nov. 21 16:28 Payment.js
+-rw-r--r-- 1 Cris & Mike 197121 5529 dic.  1 16:28 Student.js
+-rw-r--r-- 1 Cris & Mike 197121  786 nov. 22 13:42 User.js
+
+./node_modules:
+total 776
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  3 14:57 ../
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 .bin/
+-rw-r--r-- 1 Cris & Mike 197121 66709 dic.  1 18:24 .package-lock.json
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 @mongodb-js/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 @types/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 accepts/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 anymatch/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 append-field/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 balanced-match/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 bcryptjs/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 binary-extensions/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 body-parser/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 brace-expansion/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 braces/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 bson/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 buffer-equal-constant-time/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 buffer-from/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 busboy/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 bytes/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 call-bind-apply-helpers/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 call-bound/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 chokidar/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 cloudinary/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 cloudinary-core/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 concat-map/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 concat-stream/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 content-disposition/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 content-type/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 cookie/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 cookie-signature/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 core-js/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 cors/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 debug/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 depd/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 dotenv/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 dunder-proto/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ecdsa-sig-formatter/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ee-first/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 encodeurl/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 escape-html/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 es-define-property/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 es-errors/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 es-object-atoms/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 etag/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 express/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 express-validator/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 fill-range/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 finalhandler/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 forwarded/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 fresh/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 function-bind/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 get-intrinsic/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 get-proto/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 glob-parent/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 gopd/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 has-flag/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 hasown/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 has-symbols/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 http-errors/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 iconv-lite/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ignore-by-default/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 inherits/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ipaddr.js/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 is-binary-path/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 is-extglob/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 is-glob/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 is-number/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 is-promise/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 jsonwebtoken/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 jwa/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 jws/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 kareem/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.includes/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.isboolean/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.isinteger/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.isnumber/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.isplainobject/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.isstring/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lodash.once/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 math-intrinsics/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 media-typer/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 memory-pager/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 merge-descriptors/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mime-db/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mime-types/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 minimatch/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 minimist/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mkdirp/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mongodb/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mongodb-connection-string-url/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mongoose/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mpath/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 mquery/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ms/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 multer/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 multer-storage-cloudinary/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 negotiator/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 nodemon/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 normalize-path/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 object-assign/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 object-inspect/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 once/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 on-finished/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 parseurl/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 path-to-regexp/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 picomatch/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 proxy-addr/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 pstree.remy/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 punycode/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 q/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 qs/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 range-parser/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 raw-body/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 readable-stream/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 readdirp/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 router/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 safe-buffer/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 safer-buffer/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 semver/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 send/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 serve-static/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 setprototypeof/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 side-channel/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 side-channel-list/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 side-channel-map/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 side-channel-weakmap/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 sift/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 simple-update-notifier/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 sparse-bitfield/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 statuses/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 streamsearch/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 string_decoder/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 supports-color/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 toidentifier/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 to-regex-range/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 touch/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 tr46/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 typedarray/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 type-is/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 undefsafe/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 unpipe/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 util-deprecate/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 validator/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 vary/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 webidl-conversions/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 whatwg-url/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 wrappy/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 xtend/
+
+./node_modules/.bin:
+total 74
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:24 ../
+-rwxr-xr-x 1 Cris & Mike 197121 387 nov. 20 12:32 bcrypt*
+-rw-r--r-- 1 Cris & Mike 197121 324 nov. 20 12:32 bcrypt.cmd
+-rwxr-xr-x 1 Cris & Mike 197121 801 nov. 20 12:32 bcrypt.ps1*
+-rwxr-xr-x 1 Cris & Mike 197121 383 nov. 20 12:32 mkdirp*
+-rw-r--r-- 1 Cris & Mike 197121 322 nov. 20 12:32 mkdirp.cmd
+-rwxr-xr-x 1 Cris & Mike 197121 793 nov. 20 12:32 mkdirp.ps1*
+-rwxr-xr-x 1 Cris & Mike 197121 393 nov. 20 12:32 nodemon*
+-rw-r--r-- 1 Cris & Mike 197121 327 nov. 20 12:32 nodemon.cmd
+-rwxr-xr-x 1 Cris & Mike 197121 813 nov. 20 12:32 nodemon.ps1*
+-rwxr-xr-x 1 Cris & Mike 197121 393 nov. 20 12:32 nodetouch*
+-rw-r--r-- 1 Cris & Mike 197121 327 nov. 20 12:32 nodetouch.cmd
+-rwxr-xr-x 1 Cris & Mike 197121 813 nov. 20 12:32 nodetouch.ps1*
+-rwxr-xr-x 1 Cris & Mike 197121 389 nov. 20 12:32 semver*
+-rw-r--r-- 1 Cris & Mike 197121 325 nov. 20 12:32 semver.cmd
+-rwxr-xr-x 1 Cris & Mike 197121 805 nov. 20 12:32 semver.ps1*
+
+./node_modules/@mongodb-js:
+total 40
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121 0 dic.  1 18:24 ../
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 saslprep/
+
+./node_modules/@mongodb-js/saslprep:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 dist/
+-rw-r--r-- 1 Cris & Mike 197121 1060 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 2673 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  735 nov. 20 12:32 readme.md
+
+./node_modules/@mongodb-js/saslprep/dist:
+total 679
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121     88 nov. 20 12:32 .esm-wrapper.mjs
+-rw-r--r-- 1 Cris & Mike 197121    162 nov. 20 12:32 browser.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    161 nov. 20 12:32 browser.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121    641 nov. 20 12:32 browser.js
+-rw-r--r-- 1 Cris & Mike 197121    370 nov. 20 12:32 browser.js.map
+-rw-r--r-- 1 Cris & Mike 197121    120 nov. 20 12:32 code-points-data.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    137 nov. 20 12:32 code-points-data.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121   2894 nov. 20 12:32 code-points-data.js
+-rw-r--r-- 1 Cris & Mike 197121    222 nov. 20 12:32 code-points-data.js.map
+-rw-r--r-- 1 Cris & Mike 197121    116 nov. 20 12:32 code-points-data-browser.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    192 nov. 20 12:32 code-points-data-browser.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121 560013 nov. 20 12:32 code-points-data-browser.js
+-rw-r--r-- 1 Cris & Mike 197121    240 nov. 20 12:32 code-points-data-browser.js.map
+-rw-r--r-- 1 Cris & Mike 197121    389 nov. 20 12:32 code-points-src.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    323 nov. 20 12:32 code-points-src.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121  29006 nov. 20 12:32 code-points-src.js
+-rw-r--r-- 1 Cris & Mike 197121  30475 nov. 20 12:32 code-points-src.js.map
+-rw-r--r-- 1 Cris & Mike 197121     61 nov. 20 12:32 generate-code-points.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    134 nov. 20 12:32 generate-code-points.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121   3984 nov. 20 12:32 generate-code-points.js
+-rw-r--r-- 1 Cris & Mike 197121   2239 nov. 20 12:32 generate-code-points.js.map
+-rw-r--r-- 1 Cris & Mike 197121    541 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    414 nov. 20 12:32 index.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121   2997 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121   2988 nov. 20 12:32 index.js.map
+-rw-r--r-- 1 Cris & Mike 197121    481 nov. 20 12:32 memory-code-points.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    214 nov. 20 12:32 memory-code-points.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121   1168 nov. 20 12:32 memory-code-points.js
+-rw-r--r-- 1 Cris & Mike 197121    818 nov. 20 12:32 memory-code-points.js.map
+-rw-r--r-- 1 Cris & Mike 197121    294 nov. 20 12:32 node.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    244 nov. 20 12:32 node.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121    651 nov. 20 12:32 node.js
+-rw-r--r-- 1 Cris & Mike 197121    397 nov. 20 12:32 node.js.map
+-rw-r--r-- 1 Cris & Mike 197121    101 nov. 20 12:32 util.d.ts
+-rw-r--r-- 1 Cris & Mike 197121    179 nov. 20 12:32 util.d.ts.map
+-rw-r--r-- 1 Cris & Mike 197121    302 nov. 20 12:32 util.js
+-rw-r--r-- 1 Cris & Mike 197121    402 nov. 20 12:32 util.js.map
+
+./node_modules/@types:
+total 48
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121 0 dic.  1 18:24 ../
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 webidl-conversions/
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 whatwg-url/
+
+./node_modules/@types/webidl-conversions:
+total 17
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 4076 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 1141 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  985 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  565 nov. 20 12:32 README.md
+
+./node_modules/@types/whatwg-url:
+total 26
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 4892 nov. 20 12:32 index.d.ts
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121 1141 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 1149 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  656 nov. 20 12:32 README.md
+-rw-r--r-- 1 Cris & Mike 197121  126 nov. 20 12:32 webidl2js-wrapper.d.ts
+
+./node_modules/@types/whatwg-url/lib:
+total 21
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 2240 nov. 20 12:32 URL.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  590 nov. 20 12:32 URL-impl.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 3357 nov. 20 12:32 URLSearchParams.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  706 nov. 20 12:32 URLSearchParams-impl.d.ts
+
+./node_modules/accepts:
+total 72
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 5218 nov. 20 12:32 HISTORY.md
+-rw-r--r-- 1 Cris & Mike 197121 5253 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1167 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 1157 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 4122 nov. 20 12:32 README.md
+
+./node_modules/anymatch:
+total 64
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  763 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 3180 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121  784 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  904 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 4023 nov. 20 12:32 README.md
+
+./node_modules/append-field:
+total 55
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121   14 nov. 20 12:32 .npmignore
+-rw-r--r-- 1 Cris & Mike 197121  307 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121 1082 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  416 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 1016 nov. 20 12:32 README.md
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 test/
+
+./node_modules/append-field/lib:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 1112 nov. 20 12:32 parse-path.js
+-rw-r--r-- 1 Cris & Mike 197121 1642 nov. 20 12:32 set-value.js
+
+./node_modules/append-field/test:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 450 nov. 20 12:32 forms.js
+
+./node_modules/balanced-match:
+total 60
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 .github/
+-rw-r--r-- 1 Cris & Mike 197121 1219 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1096 nov. 20 12:32 LICENSE.md
+-rw-r--r-- 1 Cris & Mike 197121 1069 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 3502 nov. 20 12:32 README.md
+
+./node_modules/balanced-match/.github:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121  0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121  0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 53 nov. 20 12:32 FUNDING.yml
+
+./node_modules/bcryptjs:
+total 117
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 bin/
+-rw-r--r-- 1 Cris & Mike 197121    89 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 41528 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121  1530 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  2068 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  7628 nov. 20 12:32 README.md
+-rw-r--r-- 1 Cris & Mike 197121  5653 nov. 20 12:32 types.d.ts
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 umd/
+
+./node_modules/bcryptjs/bin:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rwxr-xr-x 1 Cris & Mike 197121 528 nov. 20 12:32 bcrypt*
+
+./node_modules/bcryptjs/umd:
+total 66
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121    83 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 47507 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121    25 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  5653 nov. 20 12:32 types.d.ts
+
+./node_modules/binary-extensions:
+total 60
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 2193 nov. 20 12:32 binary-extensions.json
+-rw-r--r-- 1 Cris & Mike 197121   87 nov. 20 12:32 binary-extensions.json.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  249 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121   54 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1167 nov. 20 12:32 license
+-rw-r--r-- 1 Cris & Mike 197121  739 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  541 nov. 20 12:32 readme.md
+
+./node_modules/body-parser:
+total 96
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 18277 nov. 20 12:32 HISTORY.md
+-rw-r--r-- 1 Cris & Mike 197121  1315 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121  1172 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  1272 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 19420 nov. 20 12:32 README.md
+
+./node_modules/body-parser/lib:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 4527 nov. 20 12:32 read.js
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 types/
+-rw-r--r-- 1 Cris & Mike 197121 1667 nov. 20 12:32 utils.js
+
+./node_modules/body-parser/lib/types:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 4508 nov. 20 12:32 json.js
+-rw-r--r-- 1 Cris & Mike 197121 1353 nov. 20 12:32 raw.js
+-rw-r--r-- 1 Cris & Mike 197121 1490 nov. 20 12:32 text.js
+-rw-r--r-- 1 Cris & Mike 197121 4257 nov. 20 12:32 urlencoded.js
+
+./node_modules/brace-expansion:
+total 60
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 4797 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1096 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 1156 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 4058 nov. 20 12:32 README.md
+
+./node_modules/braces:
+total 84
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  4380 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121  1091 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  1647 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 21505 nov. 20 12:32 README.md
+
+./node_modules/braces/lib:
+total 32
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 1501 nov. 20 12:32 compile.js
+-rw-r--r-- 1 Cris & Mike 197121 1589 nov. 20 12:32 constants.js
+-rw-r--r-- 1 Cris & Mike 197121 2797 nov. 20 12:32 expand.js
+-rw-r--r-- 1 Cris & Mike 197121 6899 nov. 20 12:32 parse.js
+-rw-r--r-- 1 Cris & Mike 197121  708 nov. 20 12:32 stringify.js
+-rw-r--r-- 1 Cris & Mike 197121 2518 nov. 20 12:32 utils.js
+
+./node_modules/bson:
+total 148
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 62843 nov. 20 12:32 bson.d.ts
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 etc/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121 11357 nov. 20 12:32 LICENSE.md
+-rw-r--r-- 1 Cris & Mike 197121  4030 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 13385 nov. 20 12:32 README.md
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 src/
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 vendor/
+
+./node_modules/bson/etc:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rwxr-xr-x 1 Cris & Mike 197121 615 nov. 20 12:32 prepare.js*
+
+./node_modules/bson/lib:
+total 1748
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 177090 nov. 20 12:32 bson.bundle.js
+-rw-r--r-- 1 Cris & Mike 197121 175232 nov. 20 12:32 bson.bundle.js.map
+-rw-r--r-- 1 Cris & Mike 197121 177141 nov. 20 12:32 bson.cjs
+-rw-r--r-- 1 Cris & Mike 197121 175219 nov. 20 12:32 bson.cjs.map
+-rw-r--r-- 1 Cris & Mike 197121 176429 nov. 20 12:32 bson.mjs
+-rw-r--r-- 1 Cris & Mike 197121 175066 nov. 20 12:32 bson.mjs.map
+-rw-r--r-- 1 Cris & Mike 197121 176252 nov. 20 12:32 bson.node.mjs
+-rw-r--r-- 1 Cris & Mike 197121 174869 nov. 20 12:32 bson.node.mjs.map
+-rw-r--r-- 1 Cris & Mike 197121 177686 nov. 20 12:32 bson.rn.cjs
+-rw-r--r-- 1 Cris & Mike 197121 175643 nov. 20 12:32 bson.rn.cjs.map
+
+./node_modules/bson/src:
+total 207
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 23734 nov. 20 12:32 binary.ts
+-rw-r--r-- 1 Cris & Mike 197121  8182 nov. 20 12:32 bson.ts
+-rw-r--r-- 1 Cris & Mike 197121   901 nov. 20 12:32 bson_value.ts
+-rw-r--r-- 1 Cris & Mike 197121  1833 nov. 20 12:32 code.ts
+-rw-r--r-- 1 Cris & Mike 197121  3532 nov. 20 12:32 constants.ts
+-rw-r--r-- 1 Cris & Mike 197121  3171 nov. 20 12:32 db_ref.ts
+-rw-r--r-- 1 Cris & Mike 197121 27794 nov. 20 12:32 decimal128.ts
+-rw-r--r-- 1 Cris & Mike 197121  3504 nov. 20 12:32 double.ts
+-rw-r--r-- 1 Cris & Mike 197121  2607 nov. 20 12:32 error.ts
+-rw-r--r-- 1 Cris & Mike 197121 17336 nov. 20 12:32 extended_json.ts
+-rw-r--r-- 1 Cris & Mike 197121   606 nov. 20 12:32 index.ts
+-rw-r--r-- 1 Cris & Mike 197121  3110 nov. 20 12:32 int_32.ts
+-rw-r--r-- 1 Cris & Mike 197121 45620 nov. 20 12:32 long.ts
+-rw-r--r-- 1 Cris & Mike 197121   527 nov. 20 12:32 max_key.ts
+-rw-r--r-- 1 Cris & Mike 197121   527 nov. 20 12:32 min_key.ts
+-rw-r--r-- 1 Cris & Mike 197121 11440 nov. 20 12:32 objectid.ts
+-rw-r--r-- 1 Cris & Mike 197121  1201 nov. 20 12:32 parse_utf8.ts
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 parser/
+-rw-r--r-- 1 Cris & Mike 197121  3430 nov. 20 12:32 regexp.ts
+-rw-r--r-- 1 Cris & Mike 197121  1140 nov. 20 12:32 symbol.ts
+-rw-r--r-- 1 Cris & Mike 197121  5340 nov. 20 12:32 timestamp.ts
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 utils/
+
+./node_modules/bson/src/parser:
+total 76
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121  7140 nov. 20 12:32 calculate_size.ts
+-rw-r--r-- 1 Cris & Mike 197121 22195 nov. 20 12:32 deserializer.ts
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 on_demand/
+-rw-r--r-- 1 Cris & Mike 197121 32091 nov. 20 12:32 serializer.ts
+-rw-r--r-- 1 Cris & Mike 197121  2262 nov. 20 12:32 utils.ts
+
+./node_modules/bson/src/parser/on_demand:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121  791 nov. 20 12:32 index.ts
+-rw-r--r-- 1 Cris & Mike 197121 5042 nov. 20 12:32 parse_to_elements.ts
+
+./node_modules/bson/src/utils:
+total 44
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 3233 nov. 20 12:32 byte_utils.ts
+-rw-r--r-- 1 Cris & Mike 197121 3221 nov. 20 12:32 latin.ts
+-rw-r--r-- 1 Cris & Mike 197121 6163 nov. 20 12:32 node_byte_utils.ts
+-rw-r--r-- 1 Cris & Mike 197121 7011 nov. 20 12:32 number_utils.ts
+-rw-r--r-- 1 Cris & Mike 197121 1435 nov. 20 12:32 string_utils.ts
+-rw-r--r-- 1 Cris & Mike 197121 6535 nov. 20 12:32 web_byte_utils.ts
+
+./node_modules/bson/vendor:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ../
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 base64/
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 text-encoding/
+
+./node_modules/bson/vendor/base64:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 4639 nov. 20 12:32 base64.js
+-rw-r--r-- 1 Cris & Mike 197121 1077 nov. 20 12:32 LICENSE-MIT.txt
+-rw-r--r-- 1 Cris & Mike 197121  925 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 4019 nov. 20 12:32 README.md
+
+./node_modules/bson/vendor/text-encoding:
+total 29
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121   258 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121 12897 nov. 20 12:32 LICENSE.md
+-rw-r--r-- 1 Cris & Mike 197121  1088 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  3759 nov. 20 12:32 README.md
+
+./node_modules/bson/vendor/text-encoding/lib:
+total 624
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121      0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 101101 nov. 20 12:32 encoding.js
+-rw-r--r-- 1 Cris & Mike 197121 530093 nov. 20 12:32 encoding-indexes.js
+
+./node_modules/buffer-equal-constant-time:
+total 63
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121   26 nov. 20 12:32 .npmignore
+-rw-r--r-- 1 Cris & Mike 197121   45 nov. 20 12:32 .travis.yml
+-rw-r--r-- 1 Cris & Mike 197121 1045 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1518 nov. 20 12:32 LICENSE.txt
+-rw-r--r-- 1 Cris & Mike 197121  484 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 1101 nov. 20 12:32 README.md
+-rw-r--r-- 1 Cris & Mike 197121 1013 nov. 20 12:32 test.js
+
+./node_modules/buffer-from:
+total 53
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 1675 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1078 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  304 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 1990 nov. 20 12:32 readme.md
+
+./node_modules/busboy:
+total 69
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121   73 nov. 20 12:32 .eslintrc.js
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 .github/
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 bench/
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121 1067 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  810 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 7926 nov. 20 12:32 README.md
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 test/
+
+./node_modules/busboy/.github:
+total 4
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 ../
+drwxr-xr-x 1 Cris & Mike 197121 0 nov. 20 12:32 workflows/
+
+./node_modules/busboy/.github/workflows:
+total 2
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 518 nov. 20 12:32 ci.yml
+-rw-r--r-- 1 Cris & Mike 197121 471 nov. 20 12:32 lint.yml
+
+./node_modules/busboy/bench:
+total 32
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 3178 nov. 20 12:32 bench-multipart-fields-100mb-big.js
+-rw-r--r-- 1 Cris & Mike 197121 3169 nov. 20 12:32 bench-multipart-fields-100mb-small.js
+-rw-r--r-- 1 Cris & Mike 197121 3349 nov. 20 12:32 bench-multipart-files-100mb-big.js
+-rw-r--r-- 1 Cris & Mike 197121 3340 nov. 20 12:32 bench-multipart-files-100mb-small.js
+-rw-r--r-- 1 Cris & Mike 197121 2211 nov. 20 12:32 bench-urlencoded-fields-100pairs-small.js
+-rw-r--r-- 1 Cris & Mike 197121 1808 nov. 20 12:32 bench-urlencoded-fields-900pairs-small-alt.js
+
+./node_modules/busboy/lib:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121  1576 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 types/
+-rw-r--r-- 1 Cris & Mike 197121 16220 nov. 20 12:32 utils.js
+
+./node_modules/busboy/lib/types:
+total 32
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 18985 nov. 20 12:32 multipart.js
+-rw-r--r-- 1 Cris & Mike 197121 10705 nov. 20 12:32 urlencoded.js
+
+./node_modules/busboy/test:
+total 65
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121  2799 nov. 20 12:32 common.js
+-rw-r--r-- 1 Cris & Mike 197121   539 nov. 20 12:32 test.js
+-rw-r--r-- 1 Cris & Mike 197121 30013 nov. 20 12:32 test-types-multipart.js
+-rw-r--r-- 1 Cris & Mike 197121  2061 nov. 20 12:32 test-types-multipart-charsets.js
+-rw-r--r-- 1 Cris & Mike 197121  2369 nov. 20 12:32 test-types-multipart-stream-pause.js
+-rw-r--r-- 1 Cris & Mike 197121 11210 nov. 20 12:32 test-types-urlencoded.js
+
+./node_modules/bytes:
+total 64
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 1775 nov. 20 12:32 History.md
+-rw-r--r-- 1 Cris & Mike 197121 3613 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1153 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  959 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 4770 nov. 20 12:32 Readme.md
+
+./node_modules/call-bind-apply-helpers:
+total 85
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  232 nov. 20 12:32 .eslintrc
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 .github/
+-rw-r--r-- 1 Cris & Mike 197121  139 nov. 20 12:32 .nycrc
+-rw-r--r-- 1 Cris & Mike 197121   23 nov. 20 12:32 actualApply.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  280 nov. 20 12:32 actualApply.js
+-rw-r--r-- 1 Cris & Mike 197121  614 nov. 20 12:32 applyBind.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  264 nov. 20 12:32 applyBind.js
+-rw-r--r-- 1 Cris & Mike 197121 1938 nov. 20 12:32 CHANGELOG.md
+-rw-r--r-- 1 Cris & Mike 197121   34 nov. 20 12:32 functionApply.d.ts
+-rw-r--r-- 1 Cris & Mike 197121   99 nov. 20 12:32 functionApply.js
+-rw-r--r-- 1 Cris & Mike 197121   33 nov. 20 12:32 functionCall.d.ts
+-rw-r--r-- 1 Cris & Mike 197121   97 nov. 20 12:32 functionCall.js
+-rw-r--r-- 1 Cris & Mike 197121 2226 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  511 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1071 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 2480 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 2330 nov. 20 12:32 README.md
+-rw-r--r-- 1 Cris & Mike 197121   82 nov. 20 12:32 reflectApply.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  132 nov. 20 12:32 reflectApply.js
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 test/
+-rw-r--r-- 1 Cris & Mike 197121  115 nov. 20 12:32 tsconfig.json
+
+./node_modules/call-bind-apply-helpers/.github:
+total 9
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 594 nov. 20 12:32 FUNDING.yml
+
+./node_modules/call-bind-apply-helpers/test:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 2658 nov. 20 12:32 index.js
+
+./node_modules/call-bound:
+total 72
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  138 nov. 20 12:32 .eslintrc
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 .github/
+-rw-r--r-- 1 Cris & Mike 197121  139 nov. 20 12:32 .nycrc
+-rw-r--r-- 1 Cris & Mike 197121 2880 nov. 20 12:32 CHANGELOG.md
+-rw-r--r-- 1 Cris & Mike 197121 4651 nov. 20 12:32 index.d.ts
+-rw-r--r-- 1 Cris & Mike 197121  687 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1071 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 2507 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 1897 nov. 20 12:32 README.md
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 test/
+-rw-r--r-- 1 Cris & Mike 197121  137 nov. 20 12:32 tsconfig.json
+
+./node_modules/call-bound/.github:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 581 nov. 20 12:32 FUNDING.yml
+
+./node_modules/call-bound/test:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 2418 nov. 20 12:32 index.js
+
+./node_modules/chokidar:
+total 96
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 28379 nov. 20 12:32 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 lib/
+-rw-r--r-- 1 Cris & Mike 197121  1129 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  1648 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 14392 nov. 20 12:32 README.md
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 types/
+
+./node_modules/chokidar/lib:
+total 44
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121  1878 nov. 20 12:32 constants.js
+-rw-r--r-- 1 Cris & Mike 197121 16368 nov. 20 12:32 fsevents-handler.js
+-rw-r--r-- 1 Cris & Mike 197121 20067 nov. 20 12:32 nodefs-handler.js
+
+./node_modules/chokidar/types:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 6339 nov. 20 12:32 index.d.ts
+
+./node_modules/cloudinary:
+total 94
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121   206 dic.  1 18:23 babel.config.js
+-rw-r--r-- 1 Cris & Mike 197121 25938 dic.  1 18:23 CHANGELOG.md
+-rw-r--r-- 1 Cris & Mike 197121   377 dic.  1 18:23 cloudinary.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 lib/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 lib-es5/
+-rw-r--r-- 1 Cris & Mike 197121  2039 dic.  1 18:23 package.json
+-rw-r--r-- 1 Cris & Mike 197121  4718 dic.  1 18:23 README.md
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 types/
+
+./node_modules/cloudinary/lib:
+total 97
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 27584 dic.  1 18:23 api.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 api_client/
+-rw-r--r-- 1 Cris & Mike 197121  2718 dic.  1 18:23 auth_token.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 cache/
+-rw-r--r-- 1 Cris & Mike 197121  3543 dic.  1 18:23 cache.js
+-rw-r--r-- 1 Cris & Mike 197121 10446 dic.  1 18:23 cloudinary.js
+-rw-r--r-- 1 Cris & Mike 197121  4474 dic.  1 18:23 config.js
+-rw-r--r-- 1 Cris & Mike 197121  1726 dic.  1 18:23 preloaded_file.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 provisioning/
+-rw-r--r-- 1 Cris & Mike 197121   512 dic.  1 18:23 upload_stream.js
+-rw-r--r-- 1 Cris & Mike 197121 23838 dic.  1 18:23 uploader.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 utils/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 v2/
+
+./node_modules/cloudinary/lib/api_client:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  889 dic.  1 18:23 call_account_api.js
+-rw-r--r-- 1 Cris & Mike 197121  809 dic.  1 18:23 call_api.js
+-rw-r--r-- 1 Cris & Mike 197121 4853 dic.  1 18:23 execute_request.js
+
+./node_modules/cloudinary/lib/cache:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 1256 dic.  1 18:23 FileKeyValueStorage.js
+-rw-r--r-- 1 Cris & Mike 197121 1800 dic.  1 18:23 KeyValueCacheAdapter.js
+
+./node_modules/cloudinary/lib/provisioning:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 14011 dic.  1 18:23 account.js
+
+./node_modules/cloudinary/lib/utils:
+total 104
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  2768 dic.  1 18:23 consts.js
+-rw-r--r-- 1 Cris & Mike 197121  3272 dic.  1 18:23 crc32.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 encoding/
+-rw-r--r-- 1 Cris & Mike 197121  1083 dic.  1 18:23 ensureOption.js
+-rw-r--r-- 1 Cris & Mike 197121   527 dic.  1 18:23 ensurePresenceOf.js
+-rw-r--r-- 1 Cris & Mike 197121   276 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  1321 dic.  1 18:23 generateBreakpoints.js
+-rw-r--r-- 1 Cris & Mike 197121 57771 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121   560 dic.  1 18:23 isRemoteUrl.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 parsing/
+-rw-r--r-- 1 Cris & Mike 197121   552 dic.  1 18:23 rimraf.js
+-rw-r--r-- 1 Cris & Mike 197121  5223 dic.  1 18:23 srcsetUtils.js
+-rw-r--r-- 1 Cris & Mike 197121  1496 dic.  1 18:23 utf8_encode.js
+
+./node_modules/cloudinary/lib/utils/encoding:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 203 dic.  1 18:23 base64Encode.js
+-rw-r--r-- 1 Cris & Mike 197121 445 dic.  1 18:23 base64EncodeURL.js
+-rw-r--r-- 1 Cris & Mike 197121 592 dic.  1 18:23 encodeDoubleArray.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 sdkAnalytics/
+-rw-r--r-- 1 Cris & Mike 197121 443 dic.  1 18:23 smart_escape.js
+
+./node_modules/cloudinary/lib/utils/encoding/sdkAnalytics:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 1056 dic.  1 18:23 getSDKVersions.js
+
+./node_modules/cloudinary/lib/utils/parsing:
+total 6
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 557 dic.  1 18:23 consumeOption.js
+-rw-r--r-- 1 Cris & Mike 197121 326 dic.  1 18:23 toArray.js
+
+./node_modules/cloudinary/lib/v2:
+total 18
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 2010 dic.  1 18:23 api.js
+-rw-r--r-- 1 Cris & Mike 197121  288 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 3759 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  449 dic.  1 18:23 search_folders.js
+-rw-r--r-- 1 Cris & Mike 197121 1031 dic.  1 18:23 uploader.js
+
+./node_modules/cloudinary/lib-es5:
+total 120
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 34243 dic.  1 18:23 api.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 api_client/
+-rw-r--r-- 1 Cris & Mike 197121  2727 dic.  1 18:23 auth_token.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 cache/
+-rw-r--r-- 1 Cris & Mike 197121  4908 dic.  1 18:23 cache.js
+-rw-r--r-- 1 Cris & Mike 197121 11013 dic.  1 18:23 cloudinary.js
+-rw-r--r-- 1 Cris & Mike 197121  5564 dic.  1 18:23 config.js
+-rw-r--r-- 1 Cris & Mike 197121  3020 dic.  1 18:23 preloaded_file.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 provisioning/
+-rw-r--r-- 1 Cris & Mike 197121  2382 dic.  1 18:23 upload_stream.js
+-rw-r--r-- 1 Cris & Mike 197121 30533 dic.  1 18:23 uploader.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 utils/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 v2/
+
+./node_modules/cloudinary/lib-es5/api_client:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  899 dic.  1 18:23 call_account_api.js
+-rw-r--r-- 1 Cris & Mike 197121  826 dic.  1 18:23 call_api.js
+-rw-r--r-- 1 Cris & Mike 197121 5441 dic.  1 18:23 execute_request.js
+
+./node_modules/cloudinary/lib-es5/cache:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 2630 dic.  1 18:23 FileKeyValueStorage.js
+-rw-r--r-- 1 Cris & Mike 197121 3943 dic.  1 18:23 KeyValueCacheAdapter.js
+
+./node_modules/cloudinary/lib-es5/provisioning:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 15861 dic.  1 18:23 account.js
+
+./node_modules/cloudinary/lib-es5/utils:
+total 108
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  2635 dic.  1 18:23 consts.js
+-rw-r--r-- 1 Cris & Mike 197121  3362 dic.  1 18:23 crc32.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 encoding/
+-rw-r--r-- 1 Cris & Mike 197121  1106 dic.  1 18:23 ensureOption.js
+-rw-r--r-- 1 Cris & Mike 197121   567 dic.  1 18:23 ensurePresenceOf.js
+-rw-r--r-- 1 Cris & Mike 197121   294 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  2092 dic.  1 18:23 generateBreakpoints.js
+-rw-r--r-- 1 Cris & Mike 197121 64126 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121   568 dic.  1 18:23 isRemoteUrl.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 parsing/
+-rw-r--r-- 1 Cris & Mike 197121   562 dic.  1 18:23 rimraf.js
+-rw-r--r-- 1 Cris & Mike 197121  5875 dic.  1 18:23 srcsetUtils.js
+-rw-r--r-- 1 Cris & Mike 197121  1537 dic.  1 18:23 utf8_encode.js
+
+./node_modules/cloudinary/lib-es5/utils/encoding:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 217 dic.  1 18:23 base64Encode.js
+-rw-r--r-- 1 Cris & Mike 197121 482 dic.  1 18:23 base64EncodeURL.js
+-rw-r--r-- 1 Cris & Mike 197121 628 dic.  1 18:23 encodeDoubleArray.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 sdkAnalytics/
+-rw-r--r-- 1 Cris & Mike 197121 532 dic.  1 18:23 smart_escape.js
+
+./node_modules/cloudinary/lib-es5/utils/encoding/sdkAnalytics:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 1221 dic.  1 18:23 getSDKVersions.js
+
+./node_modules/cloudinary/lib-es5/utils/parsing:
+total 6
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 571 dic.  1 18:23 consumeOption.js
+-rw-r--r-- 1 Cris & Mike 197121 350 dic.  1 18:23 toArray.js
+
+./node_modules/cloudinary/lib-es5/v2:
+total 25
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 2020 dic.  1 18:23 api.js
+-rw-r--r-- 1 Cris & Mike 197121  558 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 6079 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121 2269 dic.  1 18:23 search_folders.js
+-rw-r--r-- 1 Cris & Mike 197121 1041 dic.  1 18:23 uploader.js
+
+./node_modules/cloudinary/types:
+total 60
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 57236 dic.  1 18:23 index.d.ts
+
+./node_modules/cloudinary-core:
+total 1924
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  42033 dic.  1 18:23 cloudinary-core.d.ts
+-rw-r--r-- 1 Cris & Mike 197121 288663 dic.  1 18:23 cloudinary-core.js
+-rw-r--r-- 1 Cris & Mike 197121 355693 dic.  1 18:23 cloudinary-core.js.map
+-rw-r--r-- 1 Cris & Mike 197121 106058 dic.  1 18:23 cloudinary-core.min.js
+-rw-r--r-- 1 Cris & Mike 197121 433324 dic.  1 18:23 cloudinary-core-shrinkwrap.js
+-rw-r--r-- 1 Cris & Mike 197121 521512 dic.  1 18:23 cloudinary-core-shrinkwrap.js.map
+-rw-r--r-- 1 Cris & Mike 197121 148360 dic.  1 18:23 cloudinary-core-shrinkwrap.min.js
+-rw-r--r-- 1 Cris & Mike 197121   1008 dic.  1 18:23 package.json
+-rw-r--r-- 1 Cris & Mike 197121   5849 dic.  1 18:23 README.md
+drwxr-xr-x 1 Cris & Mike 197121      0 dic.  1 18:23 src/
+
+./node_modules/cloudinary-core/src:
+total 173
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 34831 dic.  1 18:23 cloudinary.js
+-rw-r--r-- 1 Cris & Mike 197121  6025 dic.  1 18:23 cloudinaryjquery.js
+-rw-r--r-- 1 Cris & Mike 197121  2891 dic.  1 18:23 condition.js
+-rw-r--r-- 1 Cris & Mike 197121  6057 dic.  1 18:23 configuration.js
+-rw-r--r-- 1 Cris & Mike 197121  4284 dic.  1 18:23 constants.js
+-rw-r--r-- 1 Cris & Mike 197121  3325 dic.  1 18:23 crc32.js
+-rw-r--r-- 1 Cris & Mike 197121  8237 dic.  1 18:23 expression.js
+-rw-r--r-- 1 Cris & Mike 197121   132 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  7333 dic.  1 18:23 jquery-file-upload.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 layer/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 namespace/
+-rw-r--r-- 1 Cris & Mike 197121  9515 dic.  1 18:23 parameters.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 sdkAnalytics/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 tags/
+-rw-r--r-- 1 Cris & Mike 197121 25696 dic.  1 18:23 transformation.js
+-rw-r--r-- 1 Cris & Mike 197121 12209 dic.  1 18:23 url.js
+-rw-r--r-- 1 Cris & Mike 197121  1552 dic.  1 18:23 utf8_encode.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 util/
+
+./node_modules/cloudinary-core/src/layer:
+total 25
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  848 dic.  1 18:23 fetchlayer.js
+-rw-r--r-- 1 Cris & Mike 197121 1921 dic.  1 18:23 layer.js
+-rw-r--r-- 1 Cris & Mike 197121  333 dic.  1 18:23 subtitleslayer.js
+-rw-r--r-- 1 Cris & Mike 197121 5221 dic.  1 18:23 textlayer.js
+
+./node_modules/cloudinary-core/src/namespace:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 1270 dic.  1 18:23 cloudinary-core.js
+-rw-r--r-- 1 Cris & Mike 197121 1270 dic.  1 18:23 cloudinary-core-shrinkwrap.js
+-rw-r--r-- 1 Cris & Mike 197121 1368 dic.  1 18:23 cloudinary-jquery.js
+-rw-r--r-- 1 Cris & Mike 197121 1370 dic.  1 18:23 cloudinary-jquery-file-upload.js
+
+./node_modules/cloudinary-core/src/sdkAnalytics:
+total 29
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  351 dic.  1 18:23 base64Map.js
+-rw-r--r-- 1 Cris & Mike 197121 1507 dic.  1 18:23 encodeVersion.js
+-rw-r--r-- 1 Cris & Mike 197121  838 dic.  1 18:23 getAnalyticsOptions.js
+-rw-r--r-- 1 Cris & Mike 197121 1272 dic.  1 18:23 getSDKAnalyticsSignature.js
+-rw-r--r-- 1 Cris & Mike 197121  756 dic.  1 18:23 reverseVersion.js
+-rw-r--r-- 1 Cris & Mike 197121  717 dic.  1 18:23 stringPad.js
+
+./node_modules/cloudinary-core/src/tags:
+total 40
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  945 dic.  1 18:23 clienthintsmetatag.js
+-rw-r--r-- 1 Cris & Mike 197121 6261 dic.  1 18:23 htmltag.js
+-rw-r--r-- 1 Cris & Mike 197121 1496 dic.  1 18:23 imagetag.js
+-rw-r--r-- 1 Cris & Mike 197121 1262 dic.  1 18:23 picturetag.js
+-rw-r--r-- 1 Cris & Mike 197121 1082 dic.  1 18:23 sourcetag.js
+-rw-r--r-- 1 Cris & Mike 197121 5129 dic.  1 18:23 videotag.js
+
+./node_modules/cloudinary-core/src/util:
+total 71
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  9073 dic.  1 18:23 baseutil.js
+-rw-r--r-- 1 Cris & Mike 197121  1552 dic.  1 18:23 browser.js
+-rw-r--r-- 1 Cris & Mike 197121   864 dic.  1 18:23 ensureOption.js
+-rw-r--r-- 1 Cris & Mike 197121   506 dic.  1 18:23 ensurePresenceOf.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 features/
+-rw-r--r-- 1 Cris & Mike 197121   308 dic.  1 18:23 firstNotNull.js
+-rw-r--r-- 1 Cris & Mike 197121  1273 dic.  1 18:23 generateBreakpoints.js
+-rw-r--r-- 1 Cris & Mike 197121    26 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  6958 dic.  1 18:23 jquery.js
+-rw-r--r-- 1 Cris & Mike 197121  1571 dic.  1 18:23 lazyLoad.js
+-rw-r--r-- 1 Cris & Mike 197121 14056 dic.  1 18:23 lodash.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 parse/
+-rw-r--r-- 1 Cris & Mike 197121  5059 dic.  1 18:23 srcsetUtils.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 transformations/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 xhr/
+
+./node_modules/cloudinary-core/src/util/features:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121 0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121 0 dic.  1 18:23 ../
+drwxr-xr-x 1 Cris & Mike 197121 0 dic.  1 18:23 transparentVideo/
+
+./node_modules/cloudinary-core/src/util/features/transparentVideo:
+total 28
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  691 dic.  1 18:23 checkSupportForTransparency.js
+-rw-r--r-- 1 Cris & Mike 197121 1321 dic.  1 18:23 createHiddenVideoTag.js
+-rw-r--r-- 1 Cris & Mike 197121  950 dic.  1 18:23 enforceOptionsForTransparentVideo.js
+-rw-r--r-- 1 Cris & Mike 197121 1459 dic.  1 18:23 instantiateSeeThru.js
+-rw-r--r-- 1 Cris & Mike 197121  749 dic.  1 18:23 mountCloudinaryVideoTag.js
+-rw-r--r-- 1 Cris & Mike 197121 1600 dic.  1 18:23 mountSeeThruCanvasTag.js
+
+./node_modules/cloudinary-core/src/util/parse:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 585 dic.  1 18:23 normalizeToArray.js
+
+./node_modules/cloudinary-core/src/util/transformations:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 896 dic.  1 18:23 addFlag.js
+
+./node_modules/cloudinary-core/src/util/xhr:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 2181 dic.  1 18:23 getBlobFromURL.js
+-rw-r--r-- 1 Cris & Mike 197121 2248 dic.  1 18:23 getHeadersFromURL.js
+-rw-r--r-- 1 Cris & Mike 197121 1505 dic.  1 18:23 loadScript.js
+
+./node_modules/concat-map:
+total 58
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121   43 nov. 20 12:32 .travis.yml
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 example/
+-rw-r--r-- 1 Cris & Mike 197121  345 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1073 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  989 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 1165 nov. 20 12:32 README.markdown
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 test/
+
+./node_modules/concat-map/example:
+total 5
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 171 nov. 20 12:32 map.js
+
+./node_modules/concat-map/test:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ../
+-rw-r--r-- 1 Cris & Mike 197121 1075 nov. 20 12:32 map.js
+
+./node_modules/concat-stream:
+total 56
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 3775 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1084 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 1187 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 3510 nov. 20 12:32 readme.md
+
+./node_modules/content-disposition:
+total 76
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  1265 nov. 20 12:32 HISTORY.md
+-rw-r--r-- 1 Cris & Mike 197121 10551 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121  1094 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  1082 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  5223 nov. 20 12:32 README.md
+
+./node_modules/content-type:
+total 65
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  523 nov. 20 12:32 HISTORY.md
+-rw-r--r-- 1 Cris & Mike 197121 5002 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1089 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121 1075 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 2782 nov. 20 12:32 README.md
+
+./node_modules/cookie:
+total 72
+drwxr-xr-x 1 Cris & Mike 197121     0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121  8166 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121  1175 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  1092 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121 11769 nov. 20 12:32 README.md
+-rw-r--r-- 1 Cris & Mike 197121  1180 nov. 20 12:32 SECURITY.md
+
+./node_modules/cookie-signature:
+total 58
+drwxr-xr-x 1 Cris & Mike 197121    0 nov. 20 12:32 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+-rw-r--r-- 1 Cris & Mike 197121 1481 nov. 20 12:32 History.md
+-rw-r--r-- 1 Cris & Mike 197121 1413 nov. 20 12:32 index.js
+-rw-r--r-- 1 Cris & Mike 197121 1124 nov. 20 12:32 LICENSE
+-rw-r--r-- 1 Cris & Mike 197121  548 nov. 20 12:32 package.json
+-rw-r--r-- 1 Cris & Mike 197121  427 nov. 20 12:32 Readme.md
+
+./node_modules/core-js:
+total 597
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:24 ../
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 actual/
+-rw-r--r-- 1 Cris & Mike 197121 1107 dic.  1 18:23 configurator.js
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 es/
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 features/
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 full/
+-rw-r--r-- 1 Cris & Mike 197121   50 dic.  1 18:23 index.js
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 internals/
+-rw-r--r-- 1 Cris & Mike 197121 1085 dic.  1 18:23 LICENSE
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 modules/
+-rw-r--r-- 1 Cris & Mike 197121 1537 dic.  1 18:23 package.json
+-rw-r--r-- 1 Cris & Mike 197121 2443 dic.  1 18:23 postinstall.js
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 proposals/
+-rw-r--r-- 1 Cris & Mike 197121 6210 dic.  1 18:23 README.md
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 stable/
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 stage/
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 web/
+
+./node_modules/core-js/actual:
+total 137
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 aggregate-error.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 array/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 array-buffer/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 async-disposable-stack/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 async-iterator/
+-rw-r--r-- 1 Cris & Mike 197121  80 dic.  1 18:23 atob.js
+-rw-r--r-- 1 Cris & Mike 197121  80 dic.  1 18:23 btoa.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 clear-immediate.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 data-view/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 date/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 disposable-stack/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 dom-collections/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 dom-exception/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 error/
+-rw-r--r-- 1 Cris & Mike 197121  82 dic.  1 18:23 escape.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 function/
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 get-iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 get-iterator-method.js
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 global-this.js
+-rw-r--r-- 1 Cris & Mike 197121 107 dic.  1 18:23 index.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 instance/
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 is-iterable.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 iterator/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 json/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 map/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 math/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 number/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 object/
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 parse-float.js
+-rw-r--r-- 1 Cris & Mike 197121  85 dic.  1 18:23 parse-int.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 promise/
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 queue-microtask.js
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 README.md
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 reflect/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 regexp/
+-rw-r--r-- 1 Cris & Mike 197121  80 dic.  1 18:23 self.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 set/
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 set-immediate.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 set-interval.js
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 set-timeout.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 string/
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 structured-clone.js
+-rw-r--r-- 1 Cris & Mike 197121 151 dic.  1 18:23 suppressed-error.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 symbol/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 typed-array/
+-rw-r--r-- 1 Cris & Mike 197121  84 dic.  1 18:23 unescape.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 url/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 url-search-params/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 weak-map/
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 weak-set/
+
+./node_modules/core-js/actual/array:
+total 72
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121 143 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121 145 dic.  1 18:23 from-async.js
+-rw-r--r-- 1 Cris & Mike 197121 167 dic.  1 18:23 group.js
+-rw-r--r-- 1 Cris & Mike 197121 172 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121 263 dic.  1 18:23 group-by-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121 258 dic.  1 18:23 group-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 665 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 is-array.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 join.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  87 dic.  1 18:23 of.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121 180 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121 176 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121 178 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 values.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+-rw-r--r-- 1 Cris & Mike 197121 166 dic.  1 18:23 with.js
+
+./node_modules/core-js/actual/array/virtual:
+total 59
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121 107 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121 157 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121 169 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121 218 dic.  1 18:23 group.js
+-rw-r--r-- 1 Cris & Mike 197121 223 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121 320 dic.  1 18:23 group-by-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121 315 dic.  1 18:23 group-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 741 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 join.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121 109 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121 108 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121 194 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121 190 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121 192 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 values.js
+-rw-r--r-- 1 Cris & Mike 197121 180 dic.  1 18:23 with.js
+
+./node_modules/core-js/actual/array-buffer:
+total 23
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 284 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 detached.js
+-rw-r--r-- 1 Cris & Mike 197121 272 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 is-view.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 transfer.js
+-rw-r--r-- 1 Cris & Mike 197121 187 dic.  1 18:23 transfer-to-fixed-length.js
+
+./node_modules/core-js/actual/async-disposable-stack:
+total 14
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 355 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 343 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/async-iterator:
+total 36
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  130 dic.  1 18:23 async-dispose.js
+-rw-r--r-- 1 Cris & Mike 197121  326 dic.  1 18:23 drop.js
+-rw-r--r-- 1 Cris & Mike 197121  328 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  330 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  326 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  333 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  333 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121 1041 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121 1055 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  324 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  330 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121  326 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  326 dic.  1 18:23 take.js
+-rw-r--r-- 1 Cris & Mike 197121  333 dic.  1 18:23 to-array.js
+
+./node_modules/core-js/actual/data-view:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 get-float16.js
+-rw-r--r-- 1 Cris & Mike 197121 198 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 set-float16.js
+
+./node_modules/core-js/actual/date:
+total 25
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 92 dic.  1 18:23 get-year.js
+-rw-r--r-- 1 Cris & Mike 197121 83 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 87 dic.  1 18:23 now.js
+-rw-r--r-- 1 Cris & Mike 197121 92 dic.  1 18:23 set-year.js
+-rw-r--r-- 1 Cris & Mike 197121 97 dic.  1 18:23 to-gmt-string.js
+-rw-r--r-- 1 Cris & Mike 197121 97 dic.  1 18:23 to-iso-string.js
+-rw-r--r-- 1 Cris & Mike 197121 91 dic.  1 18:23 to-json.js
+-rw-r--r-- 1 Cris & Mike 197121 96 dic.  1 18:23 to-primitive.js
+-rw-r--r-- 1 Cris & Mike 197121 93 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/actual/disposable-stack:
+total 14
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 281 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 269 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/dom-collections:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 iterator.js
+
+./node_modules/core-js/actual/dom-exception:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 to-string-tag.js
+
+./node_modules/core-js/actual/error:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 175 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 141 dic.  1 18:23 is-error.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/actual/function:
+total 21
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 has-instance.js
+-rw-r--r-- 1 Cris & Mike 197121 138 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 metadata.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 name.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/actual/function/virtual:
+total 6
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/instance:
+total 78
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121 359 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121 375 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 flags.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121 349 dic.  1 18:23 group.js
+-rw-r--r-- 1 Cris & Mike 197121 356 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121 373 dic.  1 18:23 group-by-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121 366 dic.  1 18:23 group-to-map.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121 367 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121 361 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121 364 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 trim-start.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 values.js
+-rw-r--r-- 1 Cris & Mike 197121 354 dic.  1 18:23 with.js
+
+./node_modules/core-js/actual/iterator:
+total 46
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  143 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121   64 dic.  1 18:23 dispose.js
+-rw-r--r-- 1 Cris & Mike 197121  193 dic.  1 18:23 drop.js
+-rw-r--r-- 1 Cris & Mike 197121  195 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  197 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  193 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  201 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  201 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  864 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121 1049 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  191 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  197 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121  193 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  193 dic.  1 18:23 take.js
+-rw-r--r-- 1 Cris & Mike 197121  201 dic.  1 18:23 to-array.js
+-rw-r--r-- 1 Cris & Mike 197121  397 dic.  1 18:23 to-async.js
+-rw-r--r-- 1 Cris & Mike 197121  899 dic.  1 18:23 zip.js
+-rw-r--r-- 1 Cris & Mike 197121  999 dic.  1 18:23 zip-keyed.js
+
+./node_modules/core-js/actual/json:
+total 22
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 224 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 145 dic.  1 18:23 is-raw-json.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 parse.js
+-rw-r--r-- 1 Cris & Mike 197121 183 dic.  1 18:23 raw-json.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 stringify.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 to-string-tag.js
+
+./node_modules/core-js/actual/map:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 210 dic.  1 18:23 get-or-insert.js
+-rw-r--r-- 1 Cris & Mike 197121 227 dic.  1 18:23 get-or-insert-computed.js
+-rw-r--r-- 1 Cris & Mike 197121 137 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121 239 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/math:
+total 37
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 acosh.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 asinh.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 atanh.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 cbrt.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 clz32.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 cosh.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 expm1.js
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 f16round.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 fround.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 hypot.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 imul.js
+-rw-r--r-- 1 Cris & Mike 197121 180 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 log10.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 log1p.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 log2.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 sign.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 sinh.js
+-rw-r--r-- 1 Cris & Mike 197121 145 dic.  1 18:23 sum-precise.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 tanh.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 to-string-tag.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 trunc.js
+
+./node_modules/core-js/actual/number:
+total 30
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 epsilon.js
+-rw-r--r-- 1 Cris & Mike 197121  85 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 is-finite.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 is-integer.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 is-nan.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 is-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 max-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 min-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 parse-float.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 parse-int.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 to-exponential.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 to-fixed.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 to-precision.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/actual/number/virtual:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 111 dic.  1 18:23 to-exponential.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 to-fixed.js
+-rw-r--r-- 1 Cris & Mike 197121 109 dic.  1 18:23 to-precision.js
+
+./node_modules/core-js/actual/object:
+total 50
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 assign.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 create.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 define-getter.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 define-properties.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 define-property.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 define-setter.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 freeze.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 from-entries.js
+-rw-r--r-- 1 Cris & Mike 197121 113 dic.  1 18:23 get-own-property-descriptor.js
+-rw-r--r-- 1 Cris & Mike 197121 114 dic.  1 18:23 get-own-property-descriptors.js
+-rw-r--r-- 1 Cris & Mike 197121 108 dic.  1 18:23 get-own-property-names.js
+-rw-r--r-- 1 Cris & Mike 197121 110 dic.  1 18:23 get-own-property-symbols.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 get-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121 143 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 has-own.js
+-rw-r--r-- 1 Cris & Mike 197121 134 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 is.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 is-extensible.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 is-frozen.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 is-sealed.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 lookup-getter.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 lookup-setter.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 prevent-extensions.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 proto.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 seal.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 set-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 to-string.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 values.js
+
+./node_modules/core-js/actual/promise:
+total 22
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 all-settled.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 any.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 finally.js
+-rw-r--r-- 1 Cris & Mike 197121 220 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 168 dic.  1 18:23 try.js
+-rw-r--r-- 1 Cris & Mike 197121 190 dic.  1 18:23 with-resolvers.js
+
+./node_modules/core-js/actual/reflect:
+total 31
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 apply.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 construct.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 define-property.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 delete-property.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 get.js
+-rw-r--r-- 1 Cris & Mike 197121 114 dic.  1 18:23 get-own-property-descriptor.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 get-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 has.js
+-rw-r--r-- 1 Cris & Mike 197121  86 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 is-extensible.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 own-keys.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 prevent-extensions.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 set.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 set-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 to-string-tag.js
+
+./node_modules/core-js/actual/regexp:
+total 28
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 dot-all.js
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 escape.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 flags.js
+-rw-r--r-- 1 Cris & Mike 197121 132 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 split.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 sticky.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 test.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/actual/set:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 144 dic.  1 18:23 difference.js
+-rw-r--r-- 1 Cris & Mike 197121 458 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 148 dic.  1 18:23 intersection.js
+-rw-r--r-- 1 Cris & Mike 197121 156 dic.  1 18:23 is-disjoint-from.js
+-rw-r--r-- 1 Cris & Mike 197121 148 dic.  1 18:23 is-subset-of.js
+-rw-r--r-- 1 Cris & Mike 197121 152 dic.  1 18:23 is-superset-of.js
+-rw-r--r-- 1 Cris & Mike 197121 164 dic.  1 18:23 symmetric-difference.js
+-rw-r--r-- 1 Cris & Mike 197121 134 dic.  1 18:23 union.js
+
+./node_modules/core-js/actual/string:
+total 67
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 anchor.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 big.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 blink.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 bold.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 fixed.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 fontcolor.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 fontsize.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 from-code-point.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 229 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 189 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 italics.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 link.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 raw.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 small.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 split.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 strike.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 sub.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 substr.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 sup.js
+-rw-r--r-- 1 Cris & Mike 197121 189 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  90 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 trim-start.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/actual/string/virtual:
+total 49
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 anchor.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 big.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 blink.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 bold.js
+-rw-r--r-- 1 Cris & Mike 197121 110 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 fixed.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 fontcolor.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 fontsize.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 246 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 203 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 italics.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 link.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121 108 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 small.js
+-rw-r--r-- 1 Cris & Mike 197121 108 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 strike.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 sub.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 substr.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 sup.js
+-rw-r--r-- 1 Cris & Mike 197121 203 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121 105 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121 107 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121 107 dic.  1 18:23 trim-start.js
+
+./node_modules/core-js/actual/symbol:
+total 36
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 153 dic.  1 18:23 async-dispose.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 async-iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 description.js
+-rw-r--r-- 1 Cris & Mike 197121 141 dic.  1 18:23 dispose.js
+-rw-r--r-- 1 Cris & Mike 197121  89 dic.  1 18:23 for.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 has-instance.js
+-rw-r--r-- 1 Cris & Mike 197121 288 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 106 dic.  1 18:23 is-concat-spreadable.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 key-for.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121 265 dic.  1 18:23 metadata.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121  92 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 species.js
+-rw-r--r-- 1 Cris & Mike 197121  91 dic.  1 18:23 split.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 to-primitive.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 to-string-tag.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 unscopables.js
+
+./node_modules/core-js/actual/typed-array:
+total 82
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121 102 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121 101 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121 167 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121 149 dic.  1 18:23 float32-array.js
+-rw-r--r-- 1 Cris & Mike 197121 149 dic.  1 18:23 float64-array.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121 159 dic.  1 18:23 from-base64.js
+-rw-r--r-- 1 Cris & Mike 197121 153 dic.  1 18:23 from-hex.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 794 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121 147 dic.  1 18:23 int16-array.js
+-rw-r--r-- 1 Cris & Mike 197121 147 dic.  1 18:23 int32-array.js
+-rw-r--r-- 1 Cris & Mike 197121 146 dic.  1 18:23 int8-array.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 join.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121 802 dic.  1 18:23 methods.js
+-rw-r--r-- 1 Cris & Mike 197121  93 dic.  1 18:23 of.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121  98 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 set.js
+-rw-r--r-- 1 Cris & Mike 197121 167 dic.  1 18:23 set-from-base64.js
+-rw-r--r-- 1 Cris & Mike 197121 161 dic.  1 18:23 set-from-hex.js
+-rw-r--r-- 1 Cris & Mike 197121  96 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  95 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121  99 dic.  1 18:23 subarray.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 to-base64.js
+-rw-r--r-- 1 Cris & Mike 197121 149 dic.  1 18:23 to-hex.js
+-rw-r--r-- 1 Cris & Mike 197121 107 dic.  1 18:23 to-locale-string.js
+-rw-r--r-- 1 Cris & Mike 197121 192 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121 188 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121 100 dic.  1 18:23 to-string.js
+-rw-r--r-- 1 Cris & Mike 197121 148 dic.  1 18:23 uint16-array.js
+-rw-r--r-- 1 Cris & Mike 197121 148 dic.  1 18:23 uint32-array.js
+-rw-r--r-- 1 Cris & Mike 197121 147 dic.  1 18:23 uint8-array.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 uint8-clamped-array.js
+-rw-r--r-- 1 Cris & Mike 197121  97 dic.  1 18:23 values.js
+-rw-r--r-- 1 Cris & Mike 197121 178 dic.  1 18:23 with.js
+
+./node_modules/core-js/actual/url:
+total 16
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 92 dic.  1 18:23 can-parse.js
+-rw-r--r-- 1 Cris & Mike 197121 82 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 88 dic.  1 18:23 parse.js
+-rw-r--r-- 1 Cris & Mike 197121 90 dic.  1 18:23 to-json.js
+
+./node_modules/core-js/actual/url-search-params:
+total 13
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 96 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/weak-map:
+total 15
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 224 dic.  1 18:23 get-or-insert.js
+-rw-r--r-- 1 Cris & Mike 197121 241 dic.  1 18:23 get-or-insert-computed.js
+-rw-r--r-- 1 Cris & Mike 197121 208 dic.  1 18:23 index.js
+
+./node_modules/core-js/actual/weak-set:
+total 13
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121  0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 87 dic.  1 18:23 index.js
+
+./node_modules/core-js/es:
+total 131
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121   305 dic.  1 18:23 aggregate-error.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 array/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 array-buffer/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 async-disposable-stack/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 async-iterator/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 data-view/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 date/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 disposable-stack/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 error/
+-rw-r--r-- 1 Cris & Mike 197121   119 dic.  1 18:23 escape.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 function/
+-rw-r--r-- 1 Cris & Mike 197121   184 dic.  1 18:23 get-iterator.js
+-rw-r--r-- 1 Cris & Mike 197121   203 dic.  1 18:23 get-iterator-method.js
+-rw-r--r-- 1 Cris & Mike 197121   107 dic.  1 18:23 global-this.js
+-rw-r--r-- 1 Cris & Mike 197121 12738 dic.  1 18:23 index.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 instance/
+-rw-r--r-- 1 Cris & Mike 197121   181 dic.  1 18:23 is-iterable.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 iterator/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 json/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 map/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 math/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 number/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 object/
+-rw-r--r-- 1 Cris & Mike 197121   128 dic.  1 18:23 parse-float.js
+-rw-r--r-- 1 Cris & Mike 197121   124 dic.  1 18:23 parse-int.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 promise/
+-rw-r--r-- 1 Cris & Mike 197121   135 dic.  1 18:23 README.md
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 reflect/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 regexp/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 set/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 string/
+-rw-r--r-- 1 Cris & Mike 197121   230 dic.  1 18:23 suppressed-error.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 symbol/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 typed-array/
+-rw-r--r-- 1 Cris & Mike 197121   123 dic.  1 18:23 unescape.js
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 weak-map/
+drwxr-xr-x 1 Cris & Mike 197121     0 dic.  1 18:23 weak-set/
+
+./node_modules/core-js/es/array:
+total 67
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  157 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121  174 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  163 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121  170 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121  181 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121  213 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121  224 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  168 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  178 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121  316 dic.  1 18:23 from-async.js
+-rw-r--r-- 1 Cris & Mike 197121  169 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 1912 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  168 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  140 dic.  1 18:23 is-array.js
+-rw-r--r-- 1 Cris & Mike 197121  213 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 join.js
+-rw-r--r-- 1 Cris & Mike 197121  211 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121  177 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  159 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  129 dic.  1 18:23 of.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121  176 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121  163 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121  174 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121  210 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121  213 dic.  1 18:23 values.js
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 virtual/
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 with.js
+
+./node_modules/core-js/es/array/virtual:
+total 55
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  208 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121  225 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121  268 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121  221 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121  232 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121  267 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121  278 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121  219 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121  220 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 1801 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  219 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  267 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 join.js
+-rw-r--r-- 1 Cris & Mike 197121  265 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121  228 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121  210 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121  227 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121  225 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121  264 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121  267 dic.  1 18:23 values.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 with.js
+
+./node_modules/core-js/es/array-buffer:
+total 19
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 411 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 167 dic.  1 18:23 detached.js
+-rw-r--r-- 1 Cris & Mike 197121 500 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 151 dic.  1 18:23 is-view.js
+-rw-r--r-- 1 Cris & Mike 197121  62 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121 206 dic.  1 18:23 transfer.js
+-rw-r--r-- 1 Cris & Mike 197121 222 dic.  1 18:23 transfer-to-fixed-length.js
+
+./node_modules/core-js/es/async-disposable-stack:
+total 10
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 498 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 498 dic.  1 18:23 index.js
+
+./node_modules/core-js/es/async-iterator:
+total 10
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 async-dispose.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 index.js
+
+./node_modules/core-js/es/data-view:
+total 11
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  65 dic.  1 18:23 get-float16.js
+-rw-r--r-- 1 Cris & Mike 197121 380 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  65 dic.  1 18:23 set-float16.js
+
+./node_modules/core-js/es/date:
+total 21
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 166 dic.  1 18:23 get-year.js
+-rw-r--r-- 1 Cris & Mike 197121 440 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 129 dic.  1 18:23 now.js
+-rw-r--r-- 1 Cris & Mike 197121 166 dic.  1 18:23 set-year.js
+-rw-r--r-- 1 Cris & Mike 197121 175 dic.  1 18:23 to-gmt-string.js
+-rw-r--r-- 1 Cris & Mike 197121 217 dic.  1 18:23 to-iso-string.js
+-rw-r--r-- 1 Cris & Mike 197121 164 dic.  1 18:23 to-json.js
+-rw-r--r-- 1 Cris & Mike 197121 237 dic.  1 18:23 to-primitive.js
+-rw-r--r-- 1 Cris & Mike 197121 182 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/es/disposable-stack:
+total 10
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 392 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 392 dic.  1 18:23 index.js
+
+./node_modules/core-js/es/error:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 123 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 212 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 183 dic.  1 18:23 is-error.js
+-rw-r--r-- 1 Cris & Mike 197121 146 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/es/function:
+total 12
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 167 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121 193 dic.  1 18:23 has-instance.js
+-rw-r--r-- 1 Cris & Mike 197121 228 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  57 dic.  1 18:23 name.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/es/function/virtual:
+total 2
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 218 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121 168 dic.  1 18:23 index.js
+
+./node_modules/core-js/es/instance:
+total 70
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 607 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121 364 dic.  1 18:23 bind.js
+-rw-r--r-- 1 Cris & Mike 197121 404 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121 365 dic.  1 18:23 copy-within.js
+-rw-r--r-- 1 Cris & Mike 197121 394 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121 355 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121 349 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 fill.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121 362 dic.  1 18:23 find-index.js
+-rw-r--r-- 1 Cris & Mike 197121 359 dic.  1 18:23 find-last.js
+-rw-r--r-- 1 Cris & Mike 197121 375 dic.  1 18:23 find-last-index.js
+-rw-r--r-- 1 Cris & Mike 197121 299 dic.  1 18:23 flags.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 flat.js
+-rw-r--r-- 1 Cris & Mike 197121 356 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121 356 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121 637 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 356 dic.  1 18:23 index-of.js
+-rw-r--r-- 1 Cris & Mike 197121 407 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121 369 dic.  1 18:23 last-index-of.js
+-rw-r--r-- 1 Cris & Mike 197121 343 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121 394 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121 388 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121 394 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 push.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121 368 dic.  1 18:23 reduce-right.js
+-rw-r--r-- 1 Cris & Mike 197121 387 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121 400 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121 355 dic.  1 18:23 reverse.js
+-rw-r--r-- 1 Cris & Mike 197121 349 dic.  1 18:23 slice.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121 346 dic.  1 18:23 sort.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 splice.js
+-rw-r--r-- 1 Cris & Mike 197121 400 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121 367 dic.  1 18:23 to-reversed.js
+-rw-r--r-- 1 Cris & Mike 197121 361 dic.  1 18:23 to-sorted.js
+-rw-r--r-- 1 Cris & Mike 197121 364 dic.  1 18:23 to-spliced.js
+-rw-r--r-- 1 Cris & Mike 197121 407 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121 381 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121 391 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121 394 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121 397 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121 397 dic.  1 18:23 trim-start.js
+-rw-r--r-- 1 Cris & Mike 197121 355 dic.  1 18:23 unshift.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 values.js
+-rw-r--r-- 1 Cris & Mike 197121 354 dic.  1 18:23 with.js
+
+./node_modules/core-js/es/iterator:
+total 36
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 872 dic.  1 18:23 concat.js
+-rw-r--r-- 1 Cris & Mike 197121  60 dic.  1 18:23 dispose.js
+-rw-r--r-- 1 Cris & Mike 197121 264 dic.  1 18:23 drop.js
+-rw-r--r-- 1 Cris & Mike 197121 266 dic.  1 18:23 every.js
+-rw-r--r-- 1 Cris & Mike 197121 268 dic.  1 18:23 filter.js
+-rw-r--r-- 1 Cris & Mike 197121 264 dic.  1 18:23 find.js
+-rw-r--r-- 1 Cris & Mike 197121 315 dic.  1 18:23 flat-map.js
+-rw-r--r-- 1 Cris & Mike 197121 271 dic.  1 18:23 for-each.js
+-rw-r--r-- 1 Cris & Mike 197121 814 dic.  1 18:23 from.js
+-rw-r--r-- 1 Cris & Mike 197121 900 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 262 dic.  1 18:23 map.js
+-rw-r--r-- 1 Cris & Mike 197121 268 dic.  1 18:23 reduce.js
+-rw-r--r-- 1 Cris & Mike 197121 264 dic.  1 18:23 some.js
+-rw-r--r-- 1 Cris & Mike 197121 264 dic.  1 18:23 take.js
+-rw-r--r-- 1 Cris & Mike 197121 271 dic.  1 18:23 to-array.js
+
+./node_modules/core-js/es/json:
+total 18
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 571 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 143 dic.  1 18:23 is-raw-json.js
+-rw-r--r-- 1 Cris & Mike 197121 174 dic.  1 18:23 parse.js
+-rw-r--r-- 1 Cris & Mike 197121 224 dic.  1 18:23 raw-json.js
+-rw-r--r-- 1 Cris & Mike 197121 492 dic.  1 18:23 stringify.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 to-string-tag.js
+
+./node_modules/core-js/es/map:
+total 10
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 215 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121 296 dic.  1 18:23 index.js
+
+./node_modules/core-js/es/math:
+total 36
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 acosh.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 asinh.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 atanh.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 cbrt.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 clz32.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 cosh.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 expm1.js
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 f16round.js
+-rw-r--r-- 1 Cris & Mike 197121 135 dic.  1 18:23 fround.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 hypot.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 imul.js
+-rw-r--r-- 1 Cris & Mike 197121 942 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 log10.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 log1p.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 log2.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 sign.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 sinh.js
+-rw-r--r-- 1 Cris & Mike 197121 188 dic.  1 18:23 sum-precise.js
+-rw-r--r-- 1 Cris & Mike 197121 131 dic.  1 18:23 tanh.js
+-rw-r--r-- 1 Cris & Mike 197121  88 dic.  1 18:23 to-string-tag.js
+-rw-r--r-- 1 Cris & Mike 197121 133 dic.  1 18:23 trunc.js
+
+./node_modules/core-js/es/number:
+total 26
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 137 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121  94 dic.  1 18:23 epsilon.js
+-rw-r--r-- 1 Cris & Mike 197121 714 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 144 dic.  1 18:23 is-finite.js
+-rw-r--r-- 1 Cris & Mike 197121 146 dic.  1 18:23 is-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 138 dic.  1 18:23 is-nan.js
+-rw-r--r-- 1 Cris & Mike 197121 155 dic.  1 18:23 is-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 103 dic.  1 18:23 max-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 104 dic.  1 18:23 min-safe-integer.js
+-rw-r--r-- 1 Cris & Mike 197121 148 dic.  1 18:23 parse-float.js
+-rw-r--r-- 1 Cris & Mike 197121 144 dic.  1 18:23 parse-int.js
+-rw-r--r-- 1 Cris & Mike 197121 182 dic.  1 18:23 to-exponential.js
+-rw-r--r-- 1 Cris & Mike 197121 170 dic.  1 18:23 to-fixed.js
+-rw-r--r-- 1 Cris & Mike 197121 178 dic.  1 18:23 to-precision.js
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/es/number/virtual:
+total 8
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 274 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 233 dic.  1 18:23 to-exponential.js
+-rw-r--r-- 1 Cris & Mike 197121 221 dic.  1 18:23 to-fixed.js
+-rw-r--r-- 1 Cris & Mike 197121 229 dic.  1 18:23 to-precision.js
+
+./node_modules/core-js/es/object:
+total 49
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  139 dic.  1 18:23 assign.js
+-rw-r--r-- 1 Cris & Mike 197121  203 dic.  1 18:23 create.js
+-rw-r--r-- 1 Cris & Mike 197121  184 dic.  1 18:23 define-getter.js
+-rw-r--r-- 1 Cris & Mike 197121  322 dic.  1 18:23 define-properties.js
+-rw-r--r-- 1 Cris & Mike 197121  328 dic.  1 18:23 define-property.js
+-rw-r--r-- 1 Cris & Mike 197121  184 dic.  1 18:23 define-setter.js
+-rw-r--r-- 1 Cris & Mike 197121  141 dic.  1 18:23 entries.js
+-rw-r--r-- 1 Cris & Mike 197121  139 dic.  1 18:23 freeze.js
+-rw-r--r-- 1 Cris & Mike 197121  194 dic.  1 18:23 from-entries.js
+-rw-r--r-- 1 Cris & Mike 197121  378 dic.  1 18:23 get-own-property-descriptor.js
+-rw-r--r-- 1 Cris & Mike 197121  180 dic.  1 18:23 get-own-property-descriptors.js
+-rw-r--r-- 1 Cris & Mike 197121  241 dic.  1 18:23 get-own-property-names.js
+-rw-r--r-- 1 Cris & Mike 197121  147 dic.  1 18:23 get-own-property-symbols.js
+-rw-r--r-- 1 Cris & Mike 197121  157 dic.  1 18:23 get-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121  186 dic.  1 18:23 group-by.js
+-rw-r--r-- 1 Cris & Mike 197121  140 dic.  1 18:23 has-own.js
+-rw-r--r-- 1 Cris & Mike 197121 1632 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  131 dic.  1 18:23 is.js
+-rw-r--r-- 1 Cris & Mike 197121  152 dic.  1 18:23 is-extensible.js
+-rw-r--r-- 1 Cris & Mike 197121  144 dic.  1 18:23 is-frozen.js
+-rw-r--r-- 1 Cris & Mike 197121  144 dic.  1 18:23 is-sealed.js
+-rw-r--r-- 1 Cris & Mike 197121  135 dic.  1 18:23 keys.js
+-rw-r--r-- 1 Cris & Mike 197121  184 dic.  1 18:23 lookup-getter.js
+-rw-r--r-- 1 Cris & Mike 197121  184 dic.  1 18:23 lookup-setter.js
+-rw-r--r-- 1 Cris & Mike 197121  162 dic.  1 18:23 prevent-extensions.js
+-rw-r--r-- 1 Cris & Mike 197121   56 dic.  1 18:23 proto.js
+-rw-r--r-- 1 Cris & Mike 197121  135 dic.  1 18:23 seal.js
+-rw-r--r-- 1 Cris & Mike 197121  157 dic.  1 18:23 set-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121  335 dic.  1 18:23 to-string.js
+-rw-r--r-- 1 Cris & Mike 197121  139 dic.  1 18:23 values.js
+
+./node_modules/core-js/es/promise:
+total 18
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 582 dic.  1 18:23 all-settled.js
+-rw-r--r-- 1 Cris & Mike 197121 591 dic.  1 18:23 any.js
+-rw-r--r-- 1 Cris & Mike 197121 254 dic.  1 18:23 finally.js
+-rw-r--r-- 1 Cris & Mike 197121 535 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 564 dic.  1 18:23 try.js
+-rw-r--r-- 1 Cris & Mike 197121 456 dic.  1 18:23 with-resolvers.js
+
+./node_modules/core-js/es/reflect:
+total 30
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 apply.js
+-rw-r--r-- 1 Cris & Mike 197121 147 dic.  1 18:23 construct.js
+-rw-r--r-- 1 Cris & Mike 197121 158 dic.  1 18:23 define-property.js
+-rw-r--r-- 1 Cris & Mike 197121 158 dic.  1 18:23 delete-property.js
+-rw-r--r-- 1 Cris & Mike 197121 135 dic.  1 18:23 get.js
+-rw-r--r-- 1 Cris & Mike 197121 180 dic.  1 18:23 get-own-property-descriptor.js
+-rw-r--r-- 1 Cris & Mike 197121 159 dic.  1 18:23 get-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121 135 dic.  1 18:23 has.js
+-rw-r--r-- 1 Cris & Mike 197121 832 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 154 dic.  1 18:23 is-extensible.js
+-rw-r--r-- 1 Cris & Mike 197121 144 dic.  1 18:23 own-keys.js
+-rw-r--r-- 1 Cris & Mike 197121 164 dic.  1 18:23 prevent-extensions.js
+-rw-r--r-- 1 Cris & Mike 197121 135 dic.  1 18:23 set.js
+-rw-r--r-- 1 Cris & Mike 197121 159 dic.  1 18:23 set-prototype-of.js
+-rw-r--r-- 1 Cris & Mike 197121 140 dic.  1 18:23 to-string-tag.js
+
+./node_modules/core-js/es/regexp:
+total 24
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 216 dic.  1 18:23 constructor.js
+-rw-r--r-- 1 Cris & Mike 197121 204 dic.  1 18:23 dot-all.js
+-rw-r--r-- 1 Cris & Mike 197121 139 dic.  1 18:23 escape.js
+-rw-r--r-- 1 Cris & Mike 197121 156 dic.  1 18:23 flags.js
+-rw-r--r-- 1 Cris & Mike 197121 533 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 348 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121 376 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121 352 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121 362 dic.  1 18:23 split.js
+-rw-r--r-- 1 Cris & Mike 197121 203 dic.  1 18:23 sticky.js
+-rw-r--r-- 1 Cris & Mike 197121 205 dic.  1 18:23 test.js
+-rw-r--r-- 1 Cris & Mike 197121 173 dic.  1 18:23 to-string.js
+
+./node_modules/core-js/es/set:
+total 20
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121   0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121 205 dic.  1 18:23 difference.js
+-rw-r--r-- 1 Cris & Mike 197121 602 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121 209 dic.  1 18:23 intersection.js
+-rw-r--r-- 1 Cris & Mike 197121 215 dic.  1 18:23 is-disjoint-from.js
+-rw-r--r-- 1 Cris & Mike 197121 207 dic.  1 18:23 is-subset-of.js
+-rw-r--r-- 1 Cris & Mike 197121 211 dic.  1 18:23 is-superset-of.js
+-rw-r--r-- 1 Cris & Mike 197121 224 dic.  1 18:23 symmetric-difference.js
+-rw-r--r-- 1 Cris & Mike 197121 195 dic.  1 18:23 union.js
+
+./node_modules/core-js/es/string:
+total 66
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 anchor.js
+-rw-r--r-- 1 Cris & Mike 197121  171 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 big.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 blink.js
+-rw-r--r-- 1 Cris & Mike 197121  163 dic.  1 18:23 bold.js
+-rw-r--r-- 1 Cris & Mike 197121  179 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 fixed.js
+-rw-r--r-- 1 Cris & Mike 197121  173 dic.  1 18:23 fontcolor.js
+-rw-r--r-- 1 Cris & Mike 197121  171 dic.  1 18:23 fontsize.js
+-rw-r--r-- 1 Cris & Mike 197121  155 dic.  1 18:23 from-code-point.js
+-rw-r--r-- 1 Cris & Mike 197121  171 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 1778 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  150 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  169 dic.  1 18:23 italics.js
+-rw-r--r-- 1 Cris & Mike 197121  276 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  163 dic.  1 18:23 link.js
+-rw-r--r-- 1 Cris & Mike 197121  206 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121  259 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121  168 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121  133 dic.  1 18:23 raw.js
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121  210 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121  261 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121  208 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  165 dic.  1 18:23 small.js
+-rw-r--r-- 1 Cris & Mike 197121  206 dic.  1 18:23 split.js
+-rw-r--r-- 1 Cris & Mike 197121  176 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 strike.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 sub.js
+-rw-r--r-- 1 Cris & Mike 197121  167 dic.  1 18:23 substr.js
+-rw-r--r-- 1 Cris & Mike 197121  161 dic.  1 18:23 sup.js
+-rw-r--r-- 1 Cris & Mike 197121  150 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  163 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121  173 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121  172 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121  173 dic.  1 18:23 trim-start.js
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 virtual/
+
+./node_modules/core-js/es/string/virtual:
+total 52
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 anchor.js
+-rw-r--r-- 1 Cris & Mike 197121  222 dic.  1 18:23 at.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 big.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 blink.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 bold.js
+-rw-r--r-- 1 Cris & Mike 197121  230 dic.  1 18:23 code-point-at.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 ends-with.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 fixed.js
+-rw-r--r-- 1 Cris & Mike 197121  224 dic.  1 18:23 fontcolor.js
+-rw-r--r-- 1 Cris & Mike 197121  222 dic.  1 18:23 fontsize.js
+-rw-r--r-- 1 Cris & Mike 197121  222 dic.  1 18:23 includes.js
+-rw-r--r-- 1 Cris & Mike 197121 1717 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  232 dic.  1 18:23 is-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  220 dic.  1 18:23 italics.js
+-rw-r--r-- 1 Cris & Mike 197121  204 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 link.js
+-rw-r--r-- 1 Cris & Mike 197121  316 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121  219 dic.  1 18:23 pad-end.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 pad-start.js
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 repeat.js
+-rw-r--r-- 1 Cris & Mike 197121  318 dic.  1 18:23 replace-all.js
+-rw-r--r-- 1 Cris & Mike 197121  216 dic.  1 18:23 small.js
+-rw-r--r-- 1 Cris & Mike 197121  227 dic.  1 18:23 starts-with.js
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 strike.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 sub.js
+-rw-r--r-- 1 Cris & Mike 197121  218 dic.  1 18:23 substr.js
+-rw-r--r-- 1 Cris & Mike 197121  212 dic.  1 18:23 sup.js
+-rw-r--r-- 1 Cris & Mike 197121  232 dic.  1 18:23 to-well-formed.js
+-rw-r--r-- 1 Cris & Mike 197121  214 dic.  1 18:23 trim.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 trim-end.js
+-rw-r--r-- 1 Cris & Mike 197121  224 dic.  1 18:23 trim-left.js
+-rw-r--r-- 1 Cris & Mike 197121  223 dic.  1 18:23 trim-right.js
+-rw-r--r-- 1 Cris & Mike 197121  224 dic.  1 18:23 trim-start.js
+
+./node_modules/core-js/es/symbol:
+total 34
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ./
+drwxr-xr-x 1 Cris & Mike 197121    0 dic.  1 18:23 ../
+-rw-r--r-- 1 Cris & Mike 197121  219 dic.  1 18:23 async-dispose.js
+-rw-r--r-- 1 Cris & Mike 197121  221 dic.  1 18:23 async-iterator.js
+-rw-r--r-- 1 Cris & Mike 197121   62 dic.  1 18:23 description.js
+-rw-r--r-- 1 Cris & Mike 197121  208 dic.  1 18:23 dispose.js
+-rw-r--r-- 1 Cris & Mike 197121  132 dic.  1 18:23 for.js
+-rw-r--r-- 1 Cris & Mike 197121  268 dic.  1 18:23 has-instance.js
+-rw-r--r-- 1 Cris & Mike 197121 1112 dic.  1 18:23 index.js
+-rw-r--r-- 1 Cris & Mike 197121  274 dic.  1 18:23 is-concat-spreadable.js
+-rw-r--r-- 1 Cris & Mike 197121  345 dic.  1 18:23 iterator.js
+-rw-r--r-- 1 Cris & Mike 197121  132 dic.  1 18:23 key-for.js
+-rw-r--r-- 1 Cris & Mike 197121  287 dic.  1 18:23 match.js
+-rw-r--r-- 1 Cris & Mike 197121  344 dic.  1 18:23 match-all.js
+-rw-r--r-- 1 Cris & Mike 197121  293 dic.  1 18:23 replace.js
+-rw-r--r-- 1 Cris & Mike 197121  290 dic.  1 18:23 search.js
+-rw-r--r-- 1 Cris & Mike 197121  208 dic.  1 18:23 species.js
+-rw-r--r-- 1 Cris & Mike 197121  287 dic.

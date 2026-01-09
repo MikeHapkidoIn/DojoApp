@@ -2,23 +2,23 @@ import mongoose from "mongoose";
 
 const studentSchema = new mongoose.Schema(
   {
-    // ======================
-    // 📋 INFORMACIÓN BÁSICA (EXISTENTE)
-    // ======================
     
-    // Relación con el usuario
+    // INFORMACIÓN BÁSICA (EXISTENTE)
+    
+    
+    
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
       required: [true, 'El usuario es obligatorio']
     },
     
-    // Datos personales
+    
     fullName: {
       type: String,
       required: [true, 'El nombre completo es obligatorio'],
       trim: true,
-      maxlength: [100, 'El nombre no puede tener más de 100 caracteres'] // 🛠️ CORREGIDO: maxlenght → maxlength
+      maxlength: [100, 'El nombre no puede tener más de 100 caracteres'] 
     },
     
     direccion: {
@@ -32,9 +32,9 @@ const studentSchema = new mongoose.Schema(
       required: [true, 'La fecha de nacimiento es obligatoria']
     },
 
-    // ======================
-    // 🥋 ARTES MARCIALES (EXISTENTE)
-    // ======================
+    
+    // ARTES MARCIALES (EXISTENTE)
+    
     
     arteMarcial: {
       type: String,
@@ -50,9 +50,8 @@ const studentSchema = new mongoose.Schema(
       lowercase: true
     },
 
-    // ======================
-    // 🥋 NUEVO: SISTEMA DE GRADOS (CINTURONES)
-    // ======================
+    
+    //NUEVO: SISTEMA DE GRADOS (CINTURONES)
     
     cinturonActual: {
       type: String,
@@ -89,52 +88,52 @@ const studentSchema = new mongoose.Schema(
       }
     }],
 
-    // ======================
-    // 🏛️ NUEVO: SISTEMA DE FEDERACIÓN
-    // ======================
+    
+    // SISTEMA DE FEDERACIÓN
+    
     
     informacionFederacion: {
-      // Nombre de la federación
+     
       nombreFederacion: {
         type: String,
         trim: true,
         maxlength: [100, 'El nombre de la federación es muy largo']
       },
       
-      // Número de licencia federativa
+     
       numeroLicencia: {
         type: String,
         trim: true,
         unique: true,
-        sparse: true  // Permite null pero mantiene unicidad para los que tienen licencia
+        sparse: true  
       },
       
-      // Fecha de vencimiento de la licencia
+      
       fechaVencimientoLicencia: {
         type: Date,
         default: null
       },
       
-      // Tipo de licencia
+      
       tipoLicencia: {
         type: String,
         enum: ['competencia', 'instructor', 'arbitro', 'general'],
         default: 'competencia'
       },
       
-      // Estado actual de federación
+     
       federadoActual: {
         type: Boolean,
         default: false
       },
       
-      // Fecha de federación
+      
       fechaFederacion: {
         type: Date,
         default: null
       },
       
-      // Historial de federaciones (si cambia de federación)
+      
       historialFederaciones: [{
         federacion: String,
         numeroLicencia: String,
@@ -145,9 +144,9 @@ const studentSchema = new mongoose.Schema(
       }]
     },
 
-    // ======================
-    // 📞 CONTACTO (EXISTENTE)
-    // ======================
+    
+    // CONTACTO (EXISTENTE)
+    
     
     telefono: {
       type: String,
@@ -161,9 +160,9 @@ const studentSchema = new mongoose.Schema(
       trim: true
     },
 
-    // ======================
-    // 🏆 NUEVO: LOGROS Y CERTIFICACIONES
-    // ======================
+    
+    // LOGROS Y CERTIFICACIONES
+   
     
     logros: [{
       titulo: {
@@ -177,9 +176,9 @@ const studentSchema = new mongoose.Schema(
       notas: String
     }],
 
-    // ======================
-    // 📸 FOTO Y ESTADO (EXISTENTE)
-    // ======================
+   
+    // FOTO Y ESTADO
+    
     
     foto: {
       type: String,
@@ -197,8 +196,8 @@ const studentSchema = new mongoose.Schema(
     }
   },
   {
-    // Opciones del esquema
-    timestamps: true  // Crea createdAt y updatedAt automáticamente
+    
+    timestamps: true  
   }
 );
 

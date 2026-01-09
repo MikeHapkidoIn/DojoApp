@@ -2,7 +2,7 @@ import multer from 'multer';
 import { CloudinaryStorage } from 'multer-storage-cloudinary';
 import cloudinary from '../config/cloudinary.js';
 
-// ✅ CONFIGURACIÓN DE CLOUDINARY PARA MULTER
+// CONFIGURACIÓN DE CLOUDINARY PARA MULTER
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
@@ -22,7 +22,7 @@ const storage = new CloudinaryStorage({
   }
 });
 
-// ✅ FILTRO DE ARCHIVOS - Solo imágenes
+// FILTRO DE ARCHIVOS - Solo imágenes
 const fileFilter = (req, file, cb) => {
   const allowedTypes = /jpeg|jpg|png|gif|webp/;
   const extname = allowedTypes.test(file.mimetype.toLowerCase());
@@ -35,7 +35,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-// ✅ CONFIGURACIÓN DE MULTER
+//  CONFIGURACIÓN DE MULTER
 const upload = multer({
   storage: storage,
   limits: {
@@ -45,10 +45,10 @@ const upload = multer({
   fileFilter: fileFilter
 });
 
-// ✅ MIDDLEWARE PARA SUBIR UNA SOLA FOTO
+//  MIDDLEWARE PARA SUBIR UNA SOLA FOTO
 const uploadSinglePhoto = upload.single('foto');
 
-// ✅ MANEJADOR DE ERRORES PARA MULTER
+// MANEJADOR DE ERRORES PARA MULTER
 const handleUploadErrors = (err, req, res, next) => {
   if (err instanceof multer.MulterError) {
     // Errores específicos de Multer
@@ -76,7 +76,7 @@ const handleUploadErrors = (err, req, res, next) => {
   next();
 };
 
-// ✅ MIDDLEWARE PARA VALIDAR QUE SE SUBIÓ UNA IMAGEN
+//  MIDDLEWARE PARA VALIDAR QUE SE SUBIÓ UNA IMAGEN
 const validatePhotoUpload = (req, res, next) => {
   if (!req.file) {
     return res.status(400).json({
@@ -86,31 +86,30 @@ const validatePhotoUpload = (req, res, next) => {
   next();
 };
 
-// ✅ FUNCIÓN PARA ELIMINAR FOTO ANTIGUA DE CLOUDINARY
+// FUNCIÓN PARA ELIMINAR FOTO ANTIGUA DE CLOUDINARY
 const deleteOldPhoto = async (photoUrl) => {
   try {
     if (!photoUrl) return;
     
-    // Extraer el public_id de la URL de Cloudinary
-    // Formato: https://res.cloudinary.com/cloudname/image/upload/v1234567/folder/filename.jpg
+   
     const urlParts = photoUrl.split('/');
     const uploadIndex = urlParts.indexOf('upload');
     
     if (uploadIndex !== -1) {
-      // Tomar todo después de 'upload/'
+      
       const pathParts = urlParts.slice(uploadIndex + 1);
       let publicId = pathParts.join('/');
       
-      // Remover extensión del archivo
+      
       publicId = publicId.replace(/\.[^/.]+$/, '');
       
-      // Eliminar la imagen de Cloudinary
+      
       await cloudinary.uploader.destroy(publicId);
       console.log(`✅ Foto eliminada de Cloudinary: ${publicId}`);
     }
   } catch (error) {
     console.error('❌ Error eliminando foto antigua:', error.message);
-    // No lanzamos error para no interrumpir el flujo principal
+    
   }
 };
 

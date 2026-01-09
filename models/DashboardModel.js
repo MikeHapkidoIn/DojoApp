@@ -1,15 +1,15 @@
 const db = require('../config/db');
 
 const Dashboard = {
-  // 🔢 ESTADÍSTICAS PRINCIPALES
+  // ESTADÍSTICAS PRINCIPALES
   getMainStats: async (mes, año) => {
     try {
-      // Total estudiantes
+      
       const [totalEstudiantes] = await db.query(
         'SELECT COUNT(*) as total FROM alumnos WHERE activo = 1'
       );
 
-      // Ingresos este mes
+      
       const [ingresosMes] = await db.query(
         `SELECT SUM(monto) as total FROM pagos 
          WHERE MONTH(fecha_pago) = ? AND YEAR(fecha_pago) = ? 
@@ -17,14 +17,13 @@ const Dashboard = {
         [mes, año]
       );
 
-      // Eventos este mes
+      
       const [eventosMes] = await db.query(
         `SELECT COUNT(*) as total FROM eventos 
          WHERE MONTH(fecha) = ? AND YEAR(fecha) = ?`,
         [mes, año]
       );
 
-      // Alertas activas (pagos vencidos + eventos próximos)
       const [alertas] = await db.query(
         `SELECT COUNT(*) as total FROM alertas WHERE resuelta = 0`
       );
@@ -40,7 +39,7 @@ const Dashboard = {
     }
   },
 
-  // 📈 DISTRIBUCIÓN POR ARTE MARCIAL
+  //  DISTRIBUCIÓN POR ARTE MARCIAL
   getMartialArtsDistribution: async () => {
     try {
       const [distribucion] = await db.query(`
@@ -60,7 +59,7 @@ const Dashboard = {
     }
   },
 
-  // 💰 ESTADO DE PAGOS DEL MES
+  // ESTADO DE PAGOS DEL MES
   getPaymentsStatus: async (mes, año) => {
     try {
       // Total pagos del mes
@@ -74,7 +73,7 @@ const Dashboard = {
         GROUP BY estado
       `, [mes, año]);
 
-      // Pagos vencidos
+     
       const [vencidos] = await db.query(`
         SELECT COUNT(*) as cantidad, SUM(monto) as total
         FROM pagos
@@ -91,7 +90,7 @@ const Dashboard = {
     }
   },
 
-  // 📅 EVENTOS PRÓXIMOS
+  // EVENTOS PRÓXIMOS
   getUpcomingEvents: async (limite = 5) => {
     try {
       const [eventos] = await db.query(`
@@ -114,10 +113,10 @@ const Dashboard = {
     }
   },
 
-  // ⚠️ ALERTAS ACTIVAS
+  // ALERTAS ACTIVAS
   getActiveAlerts: async () => {
     try {
-      // Alertas de pagos pendientes (últimos 7 días)
+      
       const [pagosPendientes] = await db.query(`
         SELECT 
           p.id,
@@ -133,7 +132,7 @@ const Dashboard = {
         LIMIT 5
       `);
 
-      // Alertas de eventos próximos (próximos 7 días)
+      
       const [eventosProximos] = await db.query(`
         SELECT 
           id,
@@ -157,7 +156,7 @@ const Dashboard = {
     }
   },
 
-  // 👥 ESTUDIANTES RECIENTES
+  //  ESTUDIANTES RECIENTES
   getRecentStudents: async (limite = 5) => {
     try {
       const [estudiantes] = await db.query(`
@@ -186,10 +185,10 @@ const Dashboard = {
     }
   },
 
-  // 👤 DASHBOARD DEL ESTUDIANTE
+  //  DASHBOARD DEL ESTUDIANTE
   getStudentDashboard: async (alumnoId) => {
     try {
-      // Datos del perfil
+      
       const [perfil] = await db.query(`
         SELECT 
           a.*,
@@ -200,7 +199,7 @@ const Dashboard = {
         WHERE a.id = ?
       `, [alumnoId]);
 
-      // Pagos del año actual
+      
       const [pagos] = await db.query(`
         SELECT 
           MONTH(fecha_vencimiento) as mes,
@@ -213,7 +212,7 @@ const Dashboard = {
         ORDER BY fecha_vencimiento ASC
       `, [alumnoId]);
 
-      // Eventos próximos del estudiante
+      
       const [eventos] = await db.query(`
         SELECT 
           e.*,
@@ -226,7 +225,7 @@ const Dashboard = {
         LIMIT 5
       `, [alumnoId]);
 
-      // Progresión de grados
+      
       const [progresion] = await db.query(`
         SELECT 
           grado,

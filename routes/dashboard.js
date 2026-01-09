@@ -12,10 +12,10 @@ import {
 
 const router = express.Router();
 
-// 🔐 Todas las rutas protegidas
+
 router.use(protect);
 
-// 📊 DASHBOARD ADMINISTRADOR
+// DASHBOARD ADMINISTRADOR
 router.get('/admin/stats', getAdminStats);
 router.get('/admin/distribution', getMartialArtsDistribution);
 router.get('/admin/payments-status', getPaymentsStatus);
@@ -23,7 +23,7 @@ router.get('/admin/upcoming-events', getUpcomingEvents);
 router.get('/admin/active-alerts', getActiveAlerts);
 router.get('/admin/recent-students', getRecentStudents);
 
-// 👤 DASHBOARD ESTUDIANTE
+// DASHBOARD ESTUDIANTE
 router.get('/student/:id', getStudentDashboard);
 
 export default router;
