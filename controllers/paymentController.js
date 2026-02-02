@@ -2,18 +2,12 @@ import Payment from '../models/Payment.js';
 import Student from '../models/Student.js';
 import mongoose from 'mongoose';
 
-// ======================
-// 💰 CONTROLADORES PARA PAGOS
-// ======================
 
-/**
- * Crear un nuevo pago (solo admin)
- */
 const createPayment = async (req, res) => {
   try {
     const { studentId, month, year, amount, dueDate, notes } = req.body;
 
-    // Verificar que el estudiante existe
+    
     const student = await Student.findById(studentId);
     if (!student) {
       return res.status(404).json({ 
@@ -21,7 +15,7 @@ const createPayment = async (req, res) => {
       });
     }
 
-    // Verificar formato de mes (YYYY-MM)
+    
     const monthRegex = /^\d{4}-\d{2}$/;
     if (!monthRegex.test(month)) {
       return res.status(400).json({ 
@@ -29,7 +23,7 @@ const createPayment = async (req, res) => {
       });
     }
 
-    // Verificar que no existe ya un pago para este estudiante/mes
+   
     const existingPayment = await Payment.findOne({ 
       student: studentId, 
       month 
@@ -41,7 +35,7 @@ const createPayment = async (req, res) => {
       });
     }
 
-    // Crear el pago
+   
     const payment = await Payment.create({
       student: studentId,
       month,
@@ -88,16 +82,13 @@ const createPayment = async (req, res) => {
   }
 };
 
-/**
- * Obtener todos los pagos de un estudiante (admin o el propio estudiante)
- */
+
 const getStudentPayments = async (req, res) => {
   try {
     const { studentId } = req.params;
     const { year, month, paid } = req.query;
     
-    // Verificar permisos
-    // Si no es admin, solo puede ver SUS propios pagos
+    
     if (req.user.role === 'student') {
       // Buscar el estudiante asociado a este usuario
       const student = await Student.findOne({ user: req.user._id });
@@ -110,7 +101,7 @@ const getStudentPayments = async (req, res) => {
 
     const filter = { student: studentId };
     
-    // Aplicar filtros si existen
+    
     if (year) filter.year = parseInt(year);
     if (month) filter.month = month;
     if (paid !== undefined) filter.paid = paid === 'true';
@@ -155,9 +146,7 @@ const getStudentPayments = async (req, res) => {
   }
 };
 
-/**
- * Marcar pago como realizado (solo admin)
- */
+
 const markAsPaid = async (req, res) => {
   try {
     const { paymentId } = req.params;
@@ -178,7 +167,7 @@ const markAsPaid = async (req, res) => {
       });
     }
 
-    // Actualizar pago
+   
     payment.paid = true;
     payment.paymentDate = new Date();
     payment.paymentMethod = paymentMethod || 'efectivo';
@@ -213,24 +202,21 @@ const markAsPaid = async (req, res) => {
   }
 };
 
-/**
- * Obtener alertas de pagos impagos (solo admin)
- * Esta es la función para el ASIDE que mencionaste
- */
+
 const getPaymentAlerts = async (req, res) => {
   try {
     const today = new Date();
     
-    // Pagos impagos con fecha límite pasada
+    
     const overduePayments = await Payment.find({
       paid: false,
-      dueDate: { $lt: today } // Fecha límite ya pasada
+      dueDate: { $lt: today } 
     })
     .populate('student', 'fullName telefono email')
-    .sort({ dueDate: 1 }) // Más vencidos primero
-    .limit(20); // Limitar para el aside
+    .sort({ dueDate: 1 }) 
+    .limit(20); 
 
-    // Pagos que vencen pronto (próximos 7 días)
+    
     const nextWeek = new Date();
     nextWeek.setDate(today.getDate() + 7);
     
@@ -245,7 +231,7 @@ const getPaymentAlerts = async (req, res) => {
     .sort({ dueDate: 1 })
     .limit(10);
 
-    // Calcular totales
+    
     const totalOverdue = overduePayments.reduce((sum, p) => sum + p.amount, 0);
     const totalUpcoming = upcomingPayments.reduce((sum, p) => sum + p.amount, 0);
 
@@ -292,9 +278,7 @@ const getPaymentAlerts = async (req, res) => {
   }
 };
 
-/**
- * Obtener reporte mensual de pagos (solo admin)
- */
+
 const getMonthlyReport = async (req, res) => {
   try {
     const { year, month } = req.query;
@@ -311,7 +295,7 @@ const getMonthlyReport = async (req, res) => {
       month: monthString
     })
     .populate('student', 'fullName arteMarcial categoria')
-    .sort({ paid: 1, student: 1 }) // Impagos primero, luego por estudiante
+    .sort({ paid: 1, student: 1 }) 
     .select('-__v');
 
     // Calcular estadísticas
@@ -354,7 +338,7 @@ const getMonthlyReport = async (req, res) => {
   }
 };
 
-// Función auxiliar para calcular por arte marcial
+
 const calculateByMartialArt = (payments) => {
   const byArt = {};
   
@@ -383,12 +367,10 @@ const calculateByMartialArt = (payments) => {
   return byArt;
 };
 
-/**
- * Obtener mis propios pagos (para estudiantes)
- */
+
 const getMyPayments = async (req, res) => {
   try {
-    // Buscar el estudiante asociado a este usuario
+    
     const student = await Student.findOne({ user: req.user._id });
     
     if (!student) {
@@ -406,7 +388,7 @@ const getMyPayments = async (req, res) => {
       .sort({ month: -1 })
       .select('-__v');
 
-    // Calcular resumen
+    
     const currentYear = new Date().getFullYear();
     const currentYearPayments = payments.filter(p => p.year === currentYear);
     
@@ -438,7 +420,7 @@ const getMyPayments = async (req, res) => {
   }
 };
 
-// Exportar todos los controladores
+
 export {
   createPayment,
   getStudentPayments,

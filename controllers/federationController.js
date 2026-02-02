@@ -1,7 +1,7 @@
 import Federation from '../models/federation.js';
 import Student from '../models/Student.js';
 
-// Obtener todas las federaciones
+
 const getFederations = async (req, res) => {
   try {
     const { martialArt, country } = req.query;
@@ -30,25 +30,25 @@ const getFederations = async (req, res) => {
   }
 };
 
-// Federar a un estudiante
+
 const federateStudent = async (req, res) => {
   try {
     const { studentId } = req.params;
     const { federationId, licenseNumber, licenseType, expiryDate } = req.body;
     
-    // Verificar que la federación existe
+    
     const federation = await Federation.findById(federationId);
     if (!federation) {
       return res.status(404).json({ message: 'Federación no encontrada' });
     }
     
-    // Buscar estudiante
+    
     const student = await Student.findById(studentId);
     if (!student) {
       return res.status(404).json({ message: 'Estudiante no encontrado' });
     }
     
-    // Verificar que la federación cubre su arte marcial
+    
     if (!federation.martialArts.includes(student.martialArt) && 
         !federation.martialArts.includes('general')) {
       return res.status(400).json({ 
@@ -56,7 +56,7 @@ const federateStudent = async (req, res) => {
       });
     }
     
-    // Añadir al historial si ya tenía licencia
+    
     if (student.federationInfo.licenseNumber) {
       student.federationInfo.licenseHistory.push({
         licenseNumber: student.federationInfo.licenseNumber,
@@ -67,7 +67,7 @@ const federateStudent = async (req, res) => {
       });
     }
     
-    // Actualizar información de federación
+    
     student.federationInfo.federation = federationId;
     student.federationInfo.licenseNumber = licenseNumber;
     student.federationInfo.licenseType = licenseType || 'competition';
@@ -90,7 +90,7 @@ const federateStudent = async (req, res) => {
   }
 };
 
-// Obtener estudiantes federados
+
 const getFederatedStudents = async (req, res) => {
   try {
     const { federationId } = req.params;

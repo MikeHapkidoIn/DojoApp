@@ -1,13 +1,7 @@
 import Event from '../models/Event.js';
 import Student from '../models/Student.js';
 
-// ======================
-// 📅 CONTROLADORES PARA EVENTOS
-// ======================
 
-/**
- * Crear un nuevo evento (solo admin)
- */
 const createEvent = async (req, res) => {
   try {
     const {
@@ -23,7 +17,7 @@ const createEvent = async (req, res) => {
       visibleToStudents = true
     } = req.body;
 
-    // Validar que la fecha no sea en el pasado
+    
     const eventDate = new Date(date);
     const now = new Date();
     
@@ -33,7 +27,7 @@ const createEvent = async (req, res) => {
       });
     }
 
-    // Crear el evento
+   
     const event = await Event.create({
       title,
       description: description || '',
@@ -45,7 +39,7 @@ const createEvent = async (req, res) => {
       participantLimit: participantLimit || 0,
       cost: cost || 0,
       visibleToStudents,
-      createdBy: req.user._id // El admin que crea el evento
+      createdBy: req.user._id 
     });
 
     res.status(201).json({
@@ -77,10 +71,7 @@ const createEvent = async (req, res) => {
   }
 };
 
-/**
- * Obtener todos los eventos (con filtros)
- * Admin ve todos, estudiantes solo los visibles
- */
+
 const getEvents = async (req, res) => {
   try {
     const {
@@ -94,27 +85,27 @@ const getEvents = async (req, res) => {
     
     const filter = {};
     
-    // Si es estudiante, solo eventos visibles
+    
     if (req.user.role === 'student') {
       filter.visibleToStudents = true;
     }
     
-    // Filtro por fecha
+    
     if (startDate || endDate) {
       filter.date = {};
       if (startDate) filter.date.$gte = new Date(startDate);
       if (endDate) filter.date.$lte = new Date(endDate);
     }
     
-    // Filtro por tipo
+   
     if (type) filter.type = type;
     
-    // Filtro por arte marcial
+    
     if (martialArt && martialArt !== 'all') {
       filter.martialArt = { $in: [martialArt, 'all'] };
     }
     
-    // Paginación
+    
     const skip = (parseInt(page) - 1) * parseInt(limit);
     
     const events = await Event.find(filter)
@@ -151,9 +142,7 @@ const getEvents = async (req, res) => {
   }
 };
 
-/**
- * Obtener eventos próximos (para calendario)
- */
+
 const getUpcomingEvents = async (req, res) => {
   try {
     const { limit = 10, martialArt } = req.query;
@@ -163,12 +152,12 @@ const getUpcomingEvents = async (req, res) => {
       date: { $gte: now }
     };
     
-    // Si es estudiante, solo eventos visibles
+    
     if (req.user.role === 'student') {
       filter.visibleToStudents = true;
     }
     
-    // Filtro por arte marcial del estudiante
+    
     if (martialArt && martialArt !== 'all') {
       filter.martialArt = { $in: [martialArt, 'all'] };
     } else if (req.user.role === 'student') {
@@ -185,7 +174,7 @@ const getUpcomingEvents = async (req, res) => {
       .limit(parseInt(limit))
       .select('-__v');
     
-    // Agrupar por mes para el calendario
+    
     const eventsByMonth = {};
     events.forEach(event => {
       const monthYear = event.date.toLocaleString('es-ES', {
@@ -222,9 +211,7 @@ const getUpcomingEvents = async (req, res) => {
   }
 };
 
-/**
- * Obtener un evento específico por ID
- */
+
 const getEventById = async (req, res) => {
   try {
     const event = await Event.findById(req.params.id)
@@ -237,7 +224,7 @@ const getEventById = async (req, res) => {
       });
     }
     
-    // Si es estudiante y el evento no es visible
+    
     if (req.user.role === 'student' && !event.visibleToStudents) {
       return res.status(403).json({
         message: 'No tienes permisos para ver este evento'
@@ -264,9 +251,7 @@ const getEventById = async (req, res) => {
   }
 };
 
-/**
- * Actualizar evento (solo admin)
- */
+
 const updateEvent = async (req, res) => {
   try {
     const {
@@ -290,7 +275,7 @@ const updateEvent = async (req, res) => {
       });
     }
     
-    // Solo el creador o admin puede actualizar
+    
     if (event.createdBy.toString() !== req.user._id.toString() && 
         req.user.role !== 'admin') {
       return res.status(403).json({
@@ -298,7 +283,7 @@ const updateEvent = async (req, res) => {
       });
     }
     
-    // Actualizar campos permitidos
+   
     const updates = {};
     if (title !== undefined) updates.title = title;
     if (description !== undefined) updates.description = description;
@@ -347,9 +332,7 @@ const updateEvent = async (req, res) => {
   }
 };
 
-/**
- * Eliminar evento (solo admin o creador)
- */
+
 const deleteEvent = async (req, res) => {
   try {
     const event = await Event.findById(req.params.id);
@@ -360,7 +343,7 @@ const deleteEvent = async (req, res) => {
       });
     }
     
-    // Solo el creador o admin puede eliminar
+    
     if (event.createdBy.toString() !== req.user._id.toString() && 
         req.user.role !== 'admin') {
       return res.status(403).json({
@@ -394,9 +377,7 @@ const deleteEvent = async (req, res) => {
   }
 };
 
-/**
- * Obtener eventos del día actual
- */
+
 const getTodayEvents = async (req, res) => {
   try {
     const today = new Date();
@@ -412,7 +393,7 @@ const getTodayEvents = async (req, res) => {
       }
     };
     
-    // Si es estudiante, solo eventos visibles
+  
     if (req.user.role === 'student') {
       filter.visibleToStudents = true;
     }
@@ -422,7 +403,7 @@ const getTodayEvents = async (req, res) => {
       .sort({ date: 1 })
       .select('-__v');
     
-    // Agrupar por arte marcial
+    
     const eventsByMartialArt = {};
     events.forEach(event => {
       if (!eventsByMartialArt[event.martialArt]) {
@@ -447,7 +428,7 @@ const getTodayEvents = async (req, res) => {
   }
 };
 
-// Exportar todos los controladores
+
 export {
   createEvent,
   getEvents,

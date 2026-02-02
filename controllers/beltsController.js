@@ -1,6 +1,6 @@
 import Student from '../models/Student.js';
 
-// Promover estudiante a siguiente grado
+
 const promoteStudent = async (req, res) => {
   try {
     const { studentId } = req.params;
@@ -12,7 +12,7 @@ const promoteStudent = async (req, res) => {
       return res.status(404).json({ message: 'Estudiante no encontrado' });
     }
 
-    // Añadir al historial
+    
     student.beltHistory.push({
       beltColor: student.currentBelt,
       dateAchieved: examDate || new Date(),
@@ -20,9 +20,9 @@ const promoteStudent = async (req, res) => {
       notes: notes || 'Promoción de grado'
     });
 
-    // Actualizar cinturón actual
+  
     student.currentBelt = newBelt;
-    student.nextBeltExamDate = null; // Resetear próxima fecha
+    student.nextBeltExamDate = null; 
 
     await student.save();
 
@@ -37,7 +37,7 @@ const promoteStudent = async (req, res) => {
   }
 };
 
-// Obtener historial de grados de un estudiante
+
 const getBeltHistory = async (req, res) => {
   try {
     const { studentId } = req.params;

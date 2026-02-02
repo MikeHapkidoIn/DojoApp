@@ -2,16 +2,16 @@ import Student from '../models/Student.js';
 import Payment from '../models/Payment.js';
 import Event from '../models/Event.js';
 
-// 🔢 ESTADÍSTICAS PRINCIPALES DEL ADMIN
+
 export const getAdminStats = async (req, res) => {
   try {
     const today = new Date();
     const startOfMonth = new Date(today.getFullYear(), today.getMonth(), 1);
     
-    // Total estudiantes activos
+    
     const totalEstudiantes = await Student.countDocuments({ active: true });
     
-    // Ingresos este mes
+    
     const ingresosResult = await Payment.aggregate([
       {
         $match: {
@@ -27,12 +27,12 @@ export const getAdminStats = async (req, res) => {
       }
     ]);
     
-    // Eventos este mes
+    
     const eventosMes = await Event.countDocuments({
       date: { $gte: startOfMonth, $lte: today }
     });
     
-    // Alertas (pagos pendientes vencidos)
+   
     const alertasActivas = await Payment.countDocuments({
       status: 'pending',
       dueDate: { $lt: today }
@@ -56,7 +56,7 @@ export const getAdminStats = async (req, res) => {
   }
 };
 
-// 🥋 DISTRIBUCIÓN POR ARTE MARCIAL
+
 export const getMartialArtsDistribution = async (req, res) => {
   try {
     const distribution = await Student.aggregate([
@@ -95,7 +95,7 @@ export const getMartialArtsDistribution = async (req, res) => {
   }
 };
 
-// 💰 ESTADO DE PAGOS DEL MES
+
 export const getPaymentsStatus = async (req, res) => {
   try {
     const today = new Date();
@@ -116,7 +116,7 @@ export const getPaymentsStatus = async (req, res) => {
       }
     ]);
 
-    // Pagos vencidos
+    
     const vencidos = await Payment.aggregate([
       {
         $match: {
@@ -133,7 +133,7 @@ export const getPaymentsStatus = async (req, res) => {
       }
     ]);
 
-    // Formatear respuesta
+   
     const pagados = payments.find(p => p._id === 'paid') || { cantidad: 0, total: 0 };
     const pendientes = payments.find(p => p._id === 'pending') || { cantidad: 0, total: 0 };
     
@@ -154,7 +154,7 @@ export const getPaymentsStatus = async (req, res) => {
   }
 };
 
-// 📅 EVENTOS PRÓXIMOS
+
 export const getUpcomingEvents = async (req, res) => {
   try {
     const { limit = 5 } = req.query;
@@ -180,12 +180,12 @@ export const getUpcomingEvents = async (req, res) => {
   }
 };
 
-// ⚠️ ALERTAS ACTIVAS
+
 export const getActiveAlerts = async (req, res) => {
   try {
     const today = new Date();
     
-    // Pagos pendientes vencidos
+    
     const pagosPendientes = await Payment.find({
       status: 'pending',
       dueDate: { $lt: today }
@@ -194,7 +194,7 @@ export const getActiveAlerts = async (req, res) => {
     .sort({ dueDate: 1 })
     .limit(5);
 
-    // Eventos próximos (próximos 7 días)
+    
     const weekFromNow = new Date();
     weekFromNow.setDate(today.getDate() + 7);
     
@@ -221,7 +221,7 @@ export const getActiveAlerts = async (req, res) => {
   }
 };
 
-// 👥 ESTUDIANTES RECIENTES
+
 export const getRecentStudents = async (req, res) => {
   try {
     const { limit = 5 } = req.query;
@@ -244,12 +244,12 @@ export const getRecentStudents = async (req, res) => {
   }
 };
 
-// 👤 DASHBOARD DEL ESTUDIANTE
+
 export const getStudentDashboard = async (req, res) => {
   try {
     const { id } = req.params;
     
-    // Verificar que el estudiante existe y el usuario tiene acceso
+   
     const student = await Student.findById(id);
     if (!student) {
       return res.status(404).json({
@@ -258,7 +258,7 @@ export const getStudentDashboard = async (req, res) => {
       });
     }
 
-    // Verificar autorización (solo admin o el propio estudiante)
+    
     if (req.user.role !== 'admin' && req.user.id !== student.userId) {
       return res.status(403).json({
         success: false,
@@ -266,7 +266,7 @@ export const getStudentDashboard = async (req, res) => {
       });
     }
 
-    // Pagos del año actual
+    
     const currentYear = new Date().getFullYear();
     const payments = await Payment.find({
       student: id,
@@ -276,7 +276,7 @@ export const getStudentDashboard = async (req, res) => {
       }
     }).sort({ dueDate: 1 });
 
-    // Eventos próximos del estudiante
+    
     const events = await Event.find({
       'participants.student': id,
       date: { $gte: new Date() }

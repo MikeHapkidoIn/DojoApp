@@ -1,16 +1,10 @@
 import Student from '../models/Student.js';
 import { deleteOldPhoto } from '../middleware/upload.js';
 
-// ======================
-// 🖼️ CONTROLADORES PARA SUBIR FOTOS
-// ======================
 
-/**
- * Subir/actualizar foto del estudiante actual
- */
 const uploadMyPhoto = async (req, res) => {
   try {
-    // Buscar el estudiante asociado a este usuario
+    
     const student = await Student.findOne({ user: req.user._id });
     
     if (!student) {
@@ -19,13 +13,13 @@ const uploadMyPhoto = async (req, res) => {
       });
     }
 
-    // Si ya tenía una foto, eliminarla de Cloudinary
+    
     if (student.foto) {
       await deleteOldPhoto(student.foto);
     }
 
-    // Actualizar la URL de la foto en la base de datos
-    student.foto = req.file.path; // Cloudinary devuelve la URL en req.file.path
+    
+    student.foto = req.file.path; 
     await student.save();
 
     res.json({
@@ -41,7 +35,7 @@ const uploadMyPhoto = async (req, res) => {
   } catch (error) {
     console.error('❌ Error subiendo foto:', error);
     
-    // Si hay error, intentar eliminar la foto subida a Cloudinary
+   
     if (req.file && req.file.path) {
       try {
         await deleteOldPhoto(req.file.path);
@@ -56,14 +50,12 @@ const uploadMyPhoto = async (req, res) => {
   }
 };
 
-/**
- * Subir/actualizar foto de cualquier estudiante (solo admin)
- */
+
 const uploadStudentPhoto = async (req, res) => {
   try {
     const { id } = req.params;
     
-    // Buscar el estudiante
+   
     const student = await Student.findById(id);
     
     if (!student) {
@@ -72,12 +64,12 @@ const uploadStudentPhoto = async (req, res) => {
       });
     }
 
-    // Si ya tenía una foto, eliminarla de Cloudinary
+    
     if (student.foto) {
       await deleteOldPhoto(student.foto);
     }
 
-    // Actualizar la URL de la foto
+    
     student.foto = req.file.path;
     await student.save();
 
@@ -94,7 +86,7 @@ const uploadStudentPhoto = async (req, res) => {
   } catch (error) {
     console.error('❌ Error subiendo foto de estudiante:', error);
     
-    // Cleanup en caso de error
+    
     if (req.file && req.file.path) {
       try {
         await deleteOldPhoto(req.file.path);
@@ -115,12 +107,10 @@ const uploadStudentPhoto = async (req, res) => {
   }
 };
 
-/**
- * Eliminar foto del estudiante actual
- */
+
 const deleteMyPhoto = async (req, res) => {
   try {
-    // Buscar el estudiante asociado a este usuario
+    
     const student = await Student.findOne({ user: req.user._id });
     
     if (!student) {
@@ -135,10 +125,10 @@ const deleteMyPhoto = async (req, res) => {
       });
     }
 
-    // Eliminar la foto de Cloudinary
+    
     await deleteOldPhoto(student.foto);
 
-    // Actualizar el campo foto en la base de datos
+    
     student.foto = '';
     await student.save();
 
@@ -159,14 +149,12 @@ const deleteMyPhoto = async (req, res) => {
   }
 };
 
-/**
- * Eliminar foto de cualquier estudiante (solo admin)
- */
+
 const deleteStudentPhoto = async (req, res) => {
   try {
     const { id } = req.params;
     
-    // Buscar el estudiante
+    
     const student = await Student.findById(id);
     
     if (!student) {
@@ -181,10 +169,10 @@ const deleteStudentPhoto = async (req, res) => {
       });
     }
 
-    // Eliminar la foto de Cloudinary
+    
     await deleteOldPhoto(student.foto);
 
-    // Actualizar el campo foto
+    
     student.foto = '';
     await student.save();
 
